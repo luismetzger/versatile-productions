@@ -751,16 +751,15 @@ pre {
 
 /* line 31, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
 .row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
   margin-left: -0.9375rem;
   margin-right: -0.9375rem; }
-  /* line 15, /Users/wickcreative/Github/versatile-productions/scss/mixins/_clearfix.scss */
-  .row:before,
-  .row:after {
-    content: " ";
-    display: table; }
-  /* line 19, /Users/wickcreative/Github/versatile-productions/scss/mixins/_clearfix.scss */
-  .row:after {
-    clear: both; }
 
 /* line 8, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
@@ -769,57 +768,89 @@ pre {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem; }
 
-/* line 22, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
-  float: left; }
-
 /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
 .col-xs-1 {
-  width: 8.3333333333%; }
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 8.3333333333%;
+      -ms-flex: 0 0 8.3333333333%;
+          flex: 0 0 8.3333333333%; }
 
 /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
 .col-xs-2 {
-  width: 16.6666666667%; }
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 16.6666666667%;
+      -ms-flex: 0 0 16.6666666667%;
+          flex: 0 0 16.6666666667%; }
 
 /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
 .col-xs-3 {
-  width: 25%; }
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 25%;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%; }
 
 /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
 .col-xs-4 {
-  width: 33.3333333333%; }
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 33.3333333333%;
+      -ms-flex: 0 0 33.3333333333%;
+          flex: 0 0 33.3333333333%; }
 
 /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
 .col-xs-5 {
-  width: 41.6666666667%; }
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 41.6666666667%;
+      -ms-flex: 0 0 41.6666666667%;
+          flex: 0 0 41.6666666667%; }
 
 /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
 .col-xs-6 {
-  width: 50%; }
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 50%;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%; }
 
 /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
 .col-xs-7 {
-  width: 58.3333333333%; }
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 58.3333333333%;
+      -ms-flex: 0 0 58.3333333333%;
+          flex: 0 0 58.3333333333%; }
 
 /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
 .col-xs-8 {
-  width: 66.6666666667%; }
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 66.6666666667%;
+      -ms-flex: 0 0 66.6666666667%;
+          flex: 0 0 66.6666666667%; }
 
 /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
 .col-xs-9 {
-  width: 75%; }
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 75%;
+      -ms-flex: 0 0 75%;
+          flex: 0 0 75%; }
 
 /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
 .col-xs-10 {
-  width: 83.3333333333%; }
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 83.3333333333%;
+      -ms-flex: 0 0 83.3333333333%;
+          flex: 0 0 83.3333333333%; }
 
 /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
 .col-xs-11 {
-  width: 91.6666666667%; }
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 91.6666666667%;
+      -ms-flex: 0 0 91.6666666667%;
+          flex: 0 0 91.6666666667%; }
 
 /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
 .col-xs-12 {
-  width: 100%; }
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 100%;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%; }
 
 /* line 37, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
 .col-xs-pull-0 {
@@ -978,45 +1009,78 @@ pre {
   margin-left: 100%; }
 
 @media (min-width: 34em) {
-  /* line 22, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
-    float: left; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-sm-1 {
-    width: 8.3333333333%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 8.3333333333%;
+        -ms-flex: 0 0 8.3333333333%;
+            flex: 0 0 8.3333333333%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-sm-2 {
-    width: 16.6666666667%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 16.6666666667%;
+        -ms-flex: 0 0 16.6666666667%;
+            flex: 0 0 16.6666666667%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-sm-3 {
-    width: 25%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-sm-4 {
-    width: 33.3333333333%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.3333333333%;
+        -ms-flex: 0 0 33.3333333333%;
+            flex: 0 0 33.3333333333%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-sm-5 {
-    width: 41.6666666667%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 41.6666666667%;
+        -ms-flex: 0 0 41.6666666667%;
+            flex: 0 0 41.6666666667%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-sm-6 {
-    width: 50%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-sm-7 {
-    width: 58.3333333333%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 58.3333333333%;
+        -ms-flex: 0 0 58.3333333333%;
+            flex: 0 0 58.3333333333%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-sm-8 {
-    width: 66.6666666667%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 66.6666666667%;
+        -ms-flex: 0 0 66.6666666667%;
+            flex: 0 0 66.6666666667%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-sm-9 {
-    width: 75%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 75%;
+        -ms-flex: 0 0 75%;
+            flex: 0 0 75%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-sm-10 {
-    width: 83.3333333333%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 83.3333333333%;
+        -ms-flex: 0 0 83.3333333333%;
+            flex: 0 0 83.3333333333%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-sm-11 {
-    width: 91.6666666667%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 91.6666666667%;
+        -ms-flex: 0 0 91.6666666667%;
+            flex: 0 0 91.6666666667%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-sm-12 {
-    width: 100%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%; }
   /* line 37, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-sm-pull-0 {
     right: auto; }
@@ -1136,45 +1200,78 @@ pre {
     margin-left: 100%; } }
 
 @media (min-width: 48em) {
-  /* line 22, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-md-1 {
-    width: 8.3333333333%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 8.3333333333%;
+        -ms-flex: 0 0 8.3333333333%;
+            flex: 0 0 8.3333333333%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-md-2 {
-    width: 16.6666666667%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 16.6666666667%;
+        -ms-flex: 0 0 16.6666666667%;
+            flex: 0 0 16.6666666667%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-md-3 {
-    width: 25%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-md-4 {
-    width: 33.3333333333%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.3333333333%;
+        -ms-flex: 0 0 33.3333333333%;
+            flex: 0 0 33.3333333333%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-md-5 {
-    width: 41.6666666667%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 41.6666666667%;
+        -ms-flex: 0 0 41.6666666667%;
+            flex: 0 0 41.6666666667%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-md-6 {
-    width: 50%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-md-7 {
-    width: 58.3333333333%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 58.3333333333%;
+        -ms-flex: 0 0 58.3333333333%;
+            flex: 0 0 58.3333333333%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-md-8 {
-    width: 66.6666666667%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 66.6666666667%;
+        -ms-flex: 0 0 66.6666666667%;
+            flex: 0 0 66.6666666667%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-md-9 {
-    width: 75%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 75%;
+        -ms-flex: 0 0 75%;
+            flex: 0 0 75%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-md-10 {
-    width: 83.3333333333%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 83.3333333333%;
+        -ms-flex: 0 0 83.3333333333%;
+            flex: 0 0 83.3333333333%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-md-11 {
-    width: 91.6666666667%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 91.6666666667%;
+        -ms-flex: 0 0 91.6666666667%;
+            flex: 0 0 91.6666666667%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-md-12 {
-    width: 100%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%; }
   /* line 37, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-md-pull-0 {
     right: auto; }
@@ -1294,45 +1391,78 @@ pre {
     margin-left: 100%; } }
 
 @media (min-width: 62em) {
-  /* line 22, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-lg-1 {
-    width: 8.3333333333%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 8.3333333333%;
+        -ms-flex: 0 0 8.3333333333%;
+            flex: 0 0 8.3333333333%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-lg-2 {
-    width: 16.6666666667%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 16.6666666667%;
+        -ms-flex: 0 0 16.6666666667%;
+            flex: 0 0 16.6666666667%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-lg-3 {
-    width: 25%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-lg-4 {
-    width: 33.3333333333%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.3333333333%;
+        -ms-flex: 0 0 33.3333333333%;
+            flex: 0 0 33.3333333333%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-lg-5 {
-    width: 41.6666666667%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 41.6666666667%;
+        -ms-flex: 0 0 41.6666666667%;
+            flex: 0 0 41.6666666667%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-lg-6 {
-    width: 50%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-lg-7 {
-    width: 58.3333333333%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 58.3333333333%;
+        -ms-flex: 0 0 58.3333333333%;
+            flex: 0 0 58.3333333333%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-lg-8 {
-    width: 66.6666666667%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 66.6666666667%;
+        -ms-flex: 0 0 66.6666666667%;
+            flex: 0 0 66.6666666667%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-lg-9 {
-    width: 75%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 75%;
+        -ms-flex: 0 0 75%;
+            flex: 0 0 75%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-lg-10 {
-    width: 83.3333333333%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 83.3333333333%;
+        -ms-flex: 0 0 83.3333333333%;
+            flex: 0 0 83.3333333333%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-lg-11 {
-    width: 91.6666666667%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 91.6666666667%;
+        -ms-flex: 0 0 91.6666666667%;
+            flex: 0 0 91.6666666667%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-lg-12 {
-    width: 100%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%; }
   /* line 37, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-lg-pull-0 {
     right: auto; }
@@ -1452,45 +1582,78 @@ pre {
     margin-left: 100%; } }
 
 @media (min-width: 75em) {
-  /* line 22, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
-  .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
-    float: left; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-xl-1 {
-    width: 8.3333333333%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 8.3333333333%;
+        -ms-flex: 0 0 8.3333333333%;
+            flex: 0 0 8.3333333333%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-xl-2 {
-    width: 16.6666666667%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 16.6666666667%;
+        -ms-flex: 0 0 16.6666666667%;
+            flex: 0 0 16.6666666667%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-xl-3 {
-    width: 25%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 25%;
+        -ms-flex: 0 0 25%;
+            flex: 0 0 25%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-xl-4 {
-    width: 33.3333333333%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 33.3333333333%;
+        -ms-flex: 0 0 33.3333333333%;
+            flex: 0 0 33.3333333333%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-xl-5 {
-    width: 41.6666666667%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 41.6666666667%;
+        -ms-flex: 0 0 41.6666666667%;
+            flex: 0 0 41.6666666667%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-xl-6 {
-    width: 50%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 50%;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-xl-7 {
-    width: 58.3333333333%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 58.3333333333%;
+        -ms-flex: 0 0 58.3333333333%;
+            flex: 0 0 58.3333333333%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-xl-8 {
-    width: 66.6666666667%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 66.6666666667%;
+        -ms-flex: 0 0 66.6666666667%;
+            flex: 0 0 66.6666666667%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-xl-9 {
-    width: 75%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 75%;
+        -ms-flex: 0 0 75%;
+            flex: 0 0 75%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-xl-10 {
-    width: 83.3333333333%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 83.3333333333%;
+        -ms-flex: 0 0 83.3333333333%;
+            flex: 0 0 83.3333333333%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-xl-11 {
-    width: 91.6666666667%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 91.6666666667%;
+        -ms-flex: 0 0 91.6666666667%;
+            flex: 0 0 91.6666666667%; }
   /* line 30, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-xl-12 {
-    width: 100%; }
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%; }
   /* line 37, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-xl-pull-0 {
     right: auto; }
@@ -1608,6 +1771,263 @@ pre {
   /* line 37, /Users/wickcreative/Github/versatile-productions/scss/mixins/_grid-framework.scss */
   .col-xl-offset-12 {
     margin-left: 100%; } }
+
+/* line 51, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+.col-xs-first {
+  -webkit-box-ordinal-group: 0;
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1; }
+
+/* line 52, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+.col-xs-last {
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+      -ms-flex-order: 1;
+          order: 1; }
+
+@media (min-width: 34em) {
+  /* line 55, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-sm-first {
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+        -ms-flex-order: -1;
+            order: -1; }
+  /* line 56, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-sm-last {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1; } }
+
+@media (min-width: 48em) {
+  /* line 59, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-md-first {
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+        -ms-flex-order: -1;
+            order: -1; }
+  /* line 60, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-md-last {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1; } }
+
+@media (min-width: 62em) {
+  /* line 63, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-lg-first {
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+        -ms-flex-order: -1;
+            order: -1; }
+  /* line 64, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-lg-last {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1; } }
+
+@media (min-width: 75em) {
+  /* line 67, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-xl-first {
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+        -ms-flex-order: -1;
+            order: -1; }
+  /* line 68, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-xl-last {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+        -ms-flex-order: 1;
+            order: 1; } }
+
+/* line 73, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+.row-xs-top {
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+
+/* line 74, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+.row-xs-center {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+/* line 75, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+.row-xs-bottom {
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+
+@media (min-width: 34em) {
+  /* line 78, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .row-sm-top {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  /* line 79, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .row-sm-center {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  /* line 80, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .row-sm-bottom {
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end; } }
+
+@media (min-width: 48em) {
+  /* line 83, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .row-md-top {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  /* line 84, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .row-md-center {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  /* line 85, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .row-md-bottom {
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end; } }
+
+@media (min-width: 62em) {
+  /* line 88, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .row-lg-top {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  /* line 89, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .row-lg-center {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  /* line 90, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .row-lg-bottom {
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end; } }
+
+@media (min-width: 75em) {
+  /* line 93, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .row-xl-top {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
+  /* line 94, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .row-xl-center {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  /* line 95, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .row-xl-bottom {
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end; } }
+
+/* line 100, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+.col-xs-top {
+  -webkit-align-self: flex-start;
+      -ms-flex-item-align: start;
+          align-self: flex-start; }
+
+/* line 101, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+.col-xs-center {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center; }
+
+/* line 102, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+.col-xs-bottom {
+  -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+          align-self: flex-end; }
+
+@media (min-width: 34em) {
+  /* line 105, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-sm-top {
+    -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+            align-self: flex-start; }
+  /* line 106, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-sm-center {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center; }
+  /* line 107, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-sm-bottom {
+    -webkit-align-self: flex-end;
+        -ms-flex-item-align: end;
+            align-self: flex-end; } }
+
+@media (min-width: 48em) {
+  /* line 110, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-md-top {
+    -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+            align-self: flex-start; }
+  /* line 111, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-md-center {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center; }
+  /* line 112, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-md-bottom {
+    -webkit-align-self: flex-end;
+        -ms-flex-item-align: end;
+            align-self: flex-end; } }
+
+@media (min-width: 62em) {
+  /* line 115, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-lg-top {
+    -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+            align-self: flex-start; }
+  /* line 116, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-lg-center {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center; }
+  /* line 117, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-lg-bottom {
+    -webkit-align-self: flex-end;
+        -ms-flex-item-align: end;
+            align-self: flex-end; } }
+
+@media (min-width: 75em) {
+  /* line 120, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-xl-top {
+    -webkit-align-self: flex-start;
+        -ms-flex-item-align: start;
+            align-self: flex-start; }
+  /* line 121, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-xl-center {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center; }
+  /* line 122, /Users/wickcreative/Github/versatile-productions/scss/_grid.scss */
+  .col-xl-bottom {
+    -webkit-align-self: flex-end;
+        -ms-flex-item-align: end;
+            align-self: flex-end; } }
 
 /* line 5, /Users/wickcreative/Github/versatile-productions/scss/_tables.scss */
 .table {
@@ -3060,31 +3480,29 @@ input[type="button"].btn-block {
 /* line 5, /Users/wickcreative/Github/versatile-productions/scss/_input-group.scss */
 .input-group {
   position: relative;
-  display: table;
-  border-collapse: separate; }
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
   /* line 17, /Users/wickcreative/Github/versatile-productions/scss/_input-group.scss */
   .input-group .form-control {
     position: relative;
     z-index: 2;
-    float: left;
-    width: 100%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
     margin-bottom: 0; }
 
-/* line 37, /Users/wickcreative/Github/versatile-productions/scss/_input-group.scss */
-.input-group-addon,
-.input-group-btn,
-.input-group .form-control {
-  display: table-cell; }
-  /* line 44, /Users/wickcreative/Github/versatile-productions/scss/_input-group.scss */
-  .input-group-addon:not(:first-child):not(:last-child),
-  .input-group-btn:not(:first-child):not(:last-child),
-  .input-group .form-control:not(:first-child):not(:last-child) {
-    border-radius: 0; }
+/* line 44, /Users/wickcreative/Github/versatile-productions/scss/_input-group.scss */
+.input-group-addon:not(:first-child):not(:last-child),
+.input-group-btn:not(:first-child):not(:last-child),
+.input-group .form-control:not(:first-child):not(:last-child) {
+  border-radius: 0; }
 
 /* line 50, /Users/wickcreative/Github/versatile-productions/scss/_input-group.scss */
 .input-group-addon,
 .input-group-btn {
-  width: 1%;
   white-space: nowrap;
   vertical-align: middle; }
 
@@ -3794,31 +4212,41 @@ input[type="button"].btn-block {
 .card-img-bottom {
   border-radius: 0 0 0.25rem 0.25rem; }
 
-/* line 206, /Users/wickcreative/Github/versatile-productions/scss/_card.scss */
+/* line 193, /Users/wickcreative/Github/versatile-productions/scss/_card.scss */
 .card-deck {
-  display: table;
-  table-layout: fixed;
-  border-spacing: 1.25rem 0; }
-  /* line 211, /Users/wickcreative/Github/versatile-productions/scss/_card.scss */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin-right: -.625rem;
+  margin-left: -.625rem; }
+  /* line 199, /Users/wickcreative/Github/versatile-productions/scss/_card.scss */
   .card-deck .card {
-    display: table-cell;
-    width: 1%;
-    vertical-align: top; }
-
-/* line 217, /Users/wickcreative/Github/versatile-productions/scss/_card.scss */
-.card-deck-wrapper {
-  margin-right: -1.25rem;
-  margin-left: -1.25rem; }
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 0;
+        -ms-flex: 1 0 0;
+            flex: 1 0 0;
+    margin-right: .625rem;
+    margin-left: .625rem; }
 
 /* line 227, /Users/wickcreative/Github/versatile-productions/scss/_card.scss */
 .card-group {
-  display: table;
-  width: 100%;
-  table-layout: fixed; }
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap; }
   /* line 237, /Users/wickcreative/Github/versatile-productions/scss/_card.scss */
   .card-group .card {
-    display: table-cell;
-    vertical-align: top; }
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 0;
+        -ms-flex: 1 0 0;
+            flex: 1 0 0; }
     /* line 245, /Users/wickcreative/Github/versatile-productions/scss/_card.scss */
     .card-group .card + .card {
       margin-left: 0;
@@ -4373,37 +4801,20 @@ a.label:hover {
   .progress-danger .progress-bar {
     background-color: #d9534f; } }
 
-/* line 10, /Users/wickcreative/Github/versatile-productions/scss/_media.scss */
+/* line 2, /Users/wickcreative/Github/versatile-productions/scss/_media.scss */
 .media {
-  margin-top: 15px; }
-  /* line 13, /Users/wickcreative/Github/versatile-productions/scss/_media.scss */
-  .media:first-child {
-    margin-top: 0; }
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem; }
 
-/* line 18, /Users/wickcreative/Github/versatile-productions/scss/_media.scss */
-.media,
+/* line 6, /Users/wickcreative/Github/versatile-productions/scss/_media.scss */
 .media-body {
-  overflow: hidden;
-  zoom: 1; }
-
-/* line 22, /Users/wickcreative/Github/versatile-productions/scss/_media.scss */
-.media-body {
-  width: 10000px; }
-
-/* line 27, /Users/wickcreative/Github/versatile-productions/scss/_media.scss */
-.media-left,
-.media-right,
-.media-body {
-  display: table-cell;
-  vertical-align: top; }
-
-/* line 31, /Users/wickcreative/Github/versatile-productions/scss/_media.scss */
-.media-middle {
-  vertical-align: middle; }
-
-/* line 34, /Users/wickcreative/Github/versatile-productions/scss/_media.scss */
-.media-bottom {
-  vertical-align: bottom; }
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
 
 /* line 44, /Users/wickcreative/Github/versatile-productions/scss/_media.scss */
 .media-object {
@@ -5887,4 +6298,4 @@ a.bg-danger:hover {
     display: none !important; } }
 
 @home "home";
-/*# sourceMappingURL=bootstrap.css.map */
+/*# sourceMappingURL=bootstrap-flex.css.map */
