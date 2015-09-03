@@ -198,6 +198,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/bower_components\/boostrap-sass\/assets\/javascripts\/min\/custom-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/boostrap-sass\/assets\/javascripts\/min\/custom-min.js",
+		"outputAbbreviatedPath": "\/bower_components\/boostrap-sass\/assets\/javascripts\/min\/min\/custom-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/bower_components\/boostrap-sass\/assets\/stylesheets\/_bootstrap-compass.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 1,

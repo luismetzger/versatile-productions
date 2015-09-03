@@ -18,7 +18,7 @@
 <body>
      
 <!-- NAVBAR -->
-<div class="navbar navbar-inverse navbar-fixed-top custom-navbar" >
+<nav class="navbar navbar-inverse navbar-fixed-top custom-navbar" >
    <div class="container">
       <div class="navbar-header">
          <a class="navbar-brand" href="#">Your Company</a>
@@ -32,18 +32,46 @@
          </ul>
       </div>
    </div>
-</div>
+</nav>
     
-<!-- BANNER -->
-<header class="banner">
-   <div class="container text-center">
-      <div class="row">
-         <h1>LOREM IPSUM</h1>
-         <p>Lorem Ipsum Dolor</p>
-      </div>
-   </div>
-</header>
-<br><br>
+<!-- VIDEO HEADER -->
+<header class="slide-container">
+  <div class='slide slide1'>
+    <div class='absolute-center button-container'>
+      <button id="contact-button" class="btn btn-lg btn-default">Get In Touch!</button>
+    </div>
+  </div><!-- /slide1 -->
+  <div class='slide slide2'>
+    
+	<video id="video" autoplay='true'  preload="none"  loop="loop" muted="muted" volume="0" poster="http://cdn.davecampion.com/timelapse-demo/poster.png">
+	</video>
+	<div class='form-wrap absolute-center'>
+    
+		<form class="text-left inner-form">
+      <span class='form-close'></span>
+			<div>
+				<input type="email" id="email" name="email" placeholder="youremail@awesome.com" required autofocus>
+			</div>
+			<div>
+				<textarea id="msg" name="msg" placeholder="Send Me Something Rad!" required></textarea>
+			</div>
+			<div class="button text-right">
+			   <button id='cancel' class="btn-xs btn-danger">Cancel</button>
+			   <button id="send" class="btn-xs btn-default btn" type="submit">
+   <span class='sendText'>Send</span>
+   <div class="spinner hidden">
+    <div class="rect1"></div>
+    <div class="rect2"></div>
+    <div class="rect3"></div>
+    <div class="rect4"></div>
+    <div class="rect5"></div>
+  </div>    
+    </button>
+			</div> 
+		</form>
+    </div><!--/.form-wrap-->
+  </div>
+</header><!--/.slide-container-->
     
 <!-- CONTENTS -->
 <div class="container">
