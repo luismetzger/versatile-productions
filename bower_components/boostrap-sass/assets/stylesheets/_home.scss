@@ -1,0 +1,48 @@
+/****************************************************
+  * Custom CSS for this website 
+  *****************************************************/
+
+.custom-navbar {
+  background-color: rgba(0,0,0,0.5);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+  height: 50px;
+  border-bottom: 0px;
+  transition: background-color .5s ease 0s;
+}
+
+.custom-navbar.opaque {
+  background-color: black;
+  height: 50px;
+  transition: background-color .5s ease 0s;
+}
+
+.banner {
+  background: url("http://lorempixel.com/g/1200/600/city/5/400%20x200/") no-repeat;
+    /*background-attachment: fixed;*/
+  min-height: 600px;
+  position: relative;
+  overflow: hidden;
+  /****************************************************
+  * set the backround image to 100% width of the screen 
+  *****************************************************/
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+.banner {
+    
+    h1 {
+      color: white;
+    }   
+    p {
+        color: white;
+    }
+
+    .row {
+      margin-top: 200px;
+    }
+}
