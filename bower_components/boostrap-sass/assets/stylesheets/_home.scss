@@ -1,52 +1,61 @@
 /****************************************************
   * Navigation Bar
-  *****************************************************/
+ *****************************************************/
+.navbar-inverse {
+    .navbar-nav {
+        > li {
+            > a {
+                color: $navbar-inverse-brand-hover-color;
+                font-family: 'Lato', sans-serif;
+                font-size: $font-size-small * 2;
+                line-height: $line-height-computed;
+            }
+        }
+    }
+}
 
 .custom-navbar {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.0);
   /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
   height: 50px;
   border-bottom: 0px;
   transition: background-color .5s ease 0s;
+  padding-bottom: 85px
 }
 
 .custom-navbar.opaque {
   background-color: black;
   height: 50px;
   transition: background-color .5s ease 0s;
+ padding-bottom: 85px;
 }
-
-.banner {
-  background: url("http://lorempixel.com/g/1200/600/city/5/400%20x200/") no-repeat;
-    /*background-attachment: fixed;*/
-  min-height: 600px;
-  position: relative;
-  overflow: hidden;
-  /****************************************************
-  * set the backround image to 100% width of the screen 
-  *****************************************************/
-  background-repeat: no-repeat;
-  background-position: center center;
-  -webkit-background-size: cover !important;
-  -moz-background-size: cover !important;
-  -o-background-size: cover !important;
-  background-size: cover !important;
+.nav {
+    > li {
+        padding: 15px;
+    }
 }
-
-.banner {
+.navbar-inverse {
     
-    h1 {
-      color: white;
-    }   
-    p {
-        color: white;
-    }
-
-    .row {
-      margin-top: 200px;
+     .btn-link {
+        color: $navbar-inverse-brand-hover-color;
+        font-family: 'Lato', sans-serif;
+        font-size: $font-size-small * 2;
+        line-height: $line-height-computed;
+        border-style: solid;
+        border-color: $navbar-inverse-brand-hover-color;
+        border-radius: 30px;
+        padding: 20px;
+        text-decoration: none;
+        margin-top: -10px;
+         
+         &:hover {
+             background-color: $btn-default-bg;
+             color: $btn-default-color;
+             border-color: $btn-default-border;
+             @include transition(background-color 0.5s ease, color 0.5s ease);
+         }
     }
 }
-
 
 /****************************************************
   * Video Header
@@ -64,16 +73,51 @@
   width:100%;
   height:100%;
   text-align: center;
-  color: #212121;
-  background-color: #34495e;
+  color: #212121;    
+  
+  
+  
     
     h1 {
-      font-family: Tahoma;
+      color: $navbar-inverse-brand-hover-color;
+      font-family: 'Pacifico', cursive;
       font-weight: bold;
-      font-size: 40px;
+      font-size: $font-size-h1 * 4;
       letter-spacing: 2px;
       padding: 10px;
     }
+    h3 {
+      color: $navbar-inverse-brand-hover-color;
+      font-family: 'Lato', sans-serif;
+      font-size: $font-size-h3;
+      letter-spacing: 2px;
+      padding: 10px 550px;
+    }
+    .fa-5x {
+        font-size: 8em;
+        color: rgba(255,255,255,0.75);
+        padding-top: 20px;
+        @include transition(background-color 0.5s ease, color 0.5s ease);
+        
+        &:hover {
+            color: rgba(255,255,255,1.0);
+            
+        }
+    }
+}
+/* Background Image and Overlay */
+.tinted-image {
+  background: 
+    /* top, transparent red, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.35), 
+      rgba(0, 0, 0, 0.35)
+    ),
+    /* bottom, image */
+    url('../../../../images/snow-mountains-forest-winter.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 .absolute-center{
   position: absolute;
@@ -101,7 +145,7 @@
     }
 }
 .button-container{
-  height:50px;
+  height:350px;
 }
 .text-left{
   text-align: left;
