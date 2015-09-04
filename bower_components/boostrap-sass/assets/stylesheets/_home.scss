@@ -345,10 +345,59 @@ slideDownOut
 }
 
 
+/****************************************************
+  * Content Sections
+  *****************************************************/
 
+.section-container {
+   
+    padding: 100px;
+    
+     h2 {
+        margin-top: 10px;
+        font-size: 38px;
+        font-weight: 100;
+        color: #555;
+        line-height: 50px;
+    }
+    h3 {
+        font-size: 22px;
+        font-weight: 500;
+        color: #555;
+        line-height: 30px;
+        padding: 20px 0;
+    }
+    p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 0 0 10px;
+        padding-right: 250px;
+    }
+    img {
+        width: 650px;
+    }
+}
+.divider-1 {
+    visibility: visible;
+    
+    span {
+        display: inline-block;
+        width: 200px;
+        height: 1px;
+        background: #ddd;
+    }
+}
 
+/****************************************************
+  * 2 Column Section
+  *****************************************************/
 
-
-
-
-
+.column-section {
+    background-color: F9F9FA;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-top-color: DDDDDD;
+    border-bottom-color: DDDDDD
+}
