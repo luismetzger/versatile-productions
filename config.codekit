@@ -1025,6 +1025,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
+	"\/bower_components\/boostrap-sass\/assets\/stylesheets\/bootstrap\/mixins\/_custom-mixin.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 1,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/boostrap-sass\/assets\/stylesheets\/bootstrap\/mixins\/_custom-mixin.scss",
+		"outputAbbreviatedPath": "\/bower_components\/boostrap-sass\/assets\/stylesheets\/bootstrap\/css\/_custom-mixin.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
 	"\/bower_components\/boostrap-sass\/assets\/stylesheets\/bootstrap\/mixins\/_forms.scss": {
 		"createSourceMap": 1,
 		"debugStyle": 1,
@@ -2507,7 +2523,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Wick Creative",
+"lastSavedByUser": "Luis Metzger",
 "manualImportLinks": {
 	},
 "projectAttributes": {

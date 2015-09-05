@@ -62,3 +62,11 @@ $("form").on('submit', function(e){
      setTimeout(function(){slide2.removeClass('slideLeftOut');},250);
    },2000); 
 });
+
+// * Mobile Menu Toggle 
+
+$(".menu-toggle").on('click', function() {
+  $(this).toggleClass("on");
+  $('.menu-section').toggleClass("on");
+  $("nav ul").toggleClass('hidden');
+});
