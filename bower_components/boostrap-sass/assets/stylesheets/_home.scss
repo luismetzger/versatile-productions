@@ -6,7 +6,7 @@
         > li {
             > a {
                 color: $navbar-inverse-brand-hover-color;
-                font-family: 'Lato', sans-serif;
+                font-family: $badass-font;
                 font-size: $font-size-small * 2;
                 line-height: $line-height-computed;
             }

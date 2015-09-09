@@ -2489,6 +2489,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/bower_components\/js\/modernizr.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/js\/modernizr.js",
+		"outputAbbreviatedPath": "\/bower_components\/js\/min\/modernizr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/images\/snow-mountains-forest-winter.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2523,7 +2534,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Luis Metzger",
+"lastSavedByUser": "Wick Creative",
 "manualImportLinks": {
 	},
 "projectAttributes": {
