@@ -7605,4 +7605,48 @@ body.slide-active {
   /* line 135, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   .navbar-header {
     left: 0 !important; } }
+
+/* line 141, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+#topSectionA {
+  background-image: url("../../../../images/snow-mountains-forest-winter.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff; }
+  @media (min-width: 992px) {
+    /* line 141, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    #topSectionA {
+      height: 865px;
+      border: 1px solid red; } }
+  /* line 154, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  #topSectionA .headTxt {
+    font-size: 1.71875em; }
+    @media (min-width: 992px) {
+      /* line 154, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+      #topSectionA .headTxt {
+        font-size: 2.125em; } }
+  /* line 164, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  #topSectionA .subheadTxt {
+    font-size: 1em;
+    width: 80%;
+    margin: auto; }
+    @media (min-width: 992px) {
+      /* line 164, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+      #topSectionA .subheadTxt {
+        font-size: 1.8em; } }
+  /* line 175, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  #topSectionA #subheadRectangle {
+    border: 1px solid #ffffff;
+    width: 28%;
+    margin: 3% auto;
+    margin-bottom: 2%;
+    padding: 1%;
+    border-radius: 25px; }
+  /* line 185, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  #topSectionA .playCircle {
+    font-size: 2.5em; }
+    @media (min-width: 992px) {
+      /* line 185, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+      #topSectionA .playCircle {
+        font-size: 60px; } }
 /*# sourceMappingURL=_bootstrap.css.map */
