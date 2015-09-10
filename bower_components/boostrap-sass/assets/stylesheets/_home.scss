@@ -213,9 +213,14 @@ body.slide-active {
   }
 }
 
-.homeBodyContainer{
+
+.homeBodyMasterContainer{
+  width: 100%;
+  border: 1px solid blue;
 
   .homeBodyContainer{
+
+    border: 1px solid red;
 
     .homeBodyContent{
 
@@ -232,7 +237,7 @@ body.slide-active {
   .homeBodyImageContainer{
 
     img{
-
+      width: 100%;
     }
   }
 

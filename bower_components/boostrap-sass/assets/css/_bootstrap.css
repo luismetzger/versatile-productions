@@ -7657,4 +7657,15 @@ body.slide-active {
       /* line 195, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
       #topSectionA .playCircle {
         font-size: 70px; } }
+
+/* line 217, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+.homeBodyMasterContainer {
+  width: 100%;
+  border: 1px solid blue; }
+  /* line 221, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  .homeBodyMasterContainer .homeBodyContainer {
+    border: 1px solid red; }
+  /* line 239, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  .homeBodyMasterContainer .homeBodyImageContainer img {
+    width: 100%; }
 /*# sourceMappingURL=_bootstrap.css.map */
