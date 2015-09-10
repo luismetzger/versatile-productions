@@ -207,8 +207,19 @@ body.slide-active {
 
   .commentHeadRow{
 
-    h2{}
-    span{}
+    h2{
+      font-size: 2em;
+
+      @media (min-width: $screen-md) {
+        font-size: 36px;
+      }
+    }
+
+    .headingSpan{
+      display:inline-block;
+      border-bottom:1px solid black;
+      padding-bottom:2px;
+    }
 
   }
 }
@@ -216,16 +227,20 @@ body.slide-active {
 
 .homeBodyMasterContainer{
   width: 100%;
-  border: 1px solid blue;
+  margin: auto;
+  padding-bottom: 4%;
+  border-bottom: 1px solid grey;
+
 
   .homeBodyContainer{
 
-    border: 1px solid red;
+
 
     .homeBodyContent{
+      padding: 3% 6%;
 
       h3{
-
+        font-size: 1.5em;
       }
       p{
 
@@ -235,11 +250,47 @@ body.slide-active {
   }
 
   .homeBodyImageContainer{
+    margin-top: 4%;
 
     img{
       width: 100%;
     }
   }
 
+}
 
+.subBodyHeadContainer{
+  text-align: center;
+  margin-top: 2%;
+
+  h2{
+  font-size: 1.8em;
+
+    @media (min-width: $screen-md) {
+        font-size: 2.1em;
+      }
+  }
+
+  .subHeadSubBody{
+    color: grey;
+    font-size: 1.2em;
+    width: 75%;
+    margin: 3% auto;
+
+      @media (min-width: $screen-md) {
+        font-size: 1.6em;
+      }
+
+  }
+}
+
+.subParagraphContainer{
+
+  .subParagraph{
+    padding: 3% 6%;
+
+    @media (min-width: $screen-md) {
+      padding: 3% 15%;
+    }
+  }
 }

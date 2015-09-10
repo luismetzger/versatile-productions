@@ -7658,14 +7658,66 @@ body.slide-active {
       #topSectionA .playCircle {
         font-size: 70px; } }
 
-/* line 217, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 210, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+.commentHeadContainer .commentHeadRow h2 {
+  font-size: 2em; }
+  @media (min-width: 992px) {
+    /* line 210, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    .commentHeadContainer .commentHeadRow h2 {
+      font-size: 36px; } }
+
+/* line 218, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+.commentHeadContainer .commentHeadRow .headingSpan {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  padding-bottom: 2px; }
+
+/* line 228, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .homeBodyMasterContainer {
   width: 100%;
-  border: 1px solid blue; }
-  /* line 221, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
-  .homeBodyMasterContainer .homeBodyContainer {
-    border: 1px solid red; }
+  margin: auto;
+  padding-bottom: 4%;
+  border-bottom: 1px solid grey; }
   /* line 239, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
-  .homeBodyMasterContainer .homeBodyImageContainer img {
-    width: 100%; }
+  .homeBodyMasterContainer .homeBodyContainer .homeBodyContent {
+    padding: 3% 6%; }
+    /* line 242, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    .homeBodyMasterContainer .homeBodyContainer .homeBodyContent h3 {
+      font-size: 1.5em; }
+  /* line 252, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  .homeBodyMasterContainer .homeBodyImageContainer {
+    margin-top: 4%; }
+    /* line 255, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    .homeBodyMasterContainer .homeBodyImageContainer img {
+      width: 100%; }
+
+/* line 262, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+.subBodyHeadContainer {
+  text-align: center;
+  margin-top: 2%; }
+  /* line 266, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  .subBodyHeadContainer h2 {
+    font-size: 1.8em; }
+    @media (min-width: 992px) {
+      /* line 266, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+      .subBodyHeadContainer h2 {
+        font-size: 2.1em; } }
+  /* line 274, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  .subBodyHeadContainer .subHeadSubBody {
+    color: grey;
+    font-size: 1.2em;
+    width: 75%;
+    margin: 3% auto; }
+    @media (min-width: 992px) {
+      /* line 274, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+      .subBodyHeadContainer .subHeadSubBody {
+        font-size: 1.6em; } }
+
+/* line 289, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+.subParagraphContainer .subParagraph {
+  padding: 3% 6%; }
+  @media (min-width: 992px) {
+    /* line 289, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    .subParagraphContainer .subParagraph {
+      padding: 3% 15%; } }
 /*# sourceMappingURL=_bootstrap.css.map */
