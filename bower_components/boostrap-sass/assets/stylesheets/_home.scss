@@ -147,8 +147,8 @@ body.slide-active {
   color: $white;
 
   @media (min-width: $screen-md) {
-    height: 865px;
-    border: 1px solid red;
+    height: 565px;
+    padding: 7%;
    }
 
   .headTxt{
@@ -156,7 +156,7 @@ body.slide-active {
     font-size: 1.71875em;
 
     @media (min-width: $screen-md) {
-      font-size: 2.125em;
+      font-size: 52px;
     }
 
   }
@@ -169,6 +169,9 @@ body.slide-active {
 
     @media (min-width: $screen-md) {
       font-size: 1.8em;
+      width: 100%;
+      margin: auto;
+      padding: 2% 14%;
     }
   }
 
@@ -180,13 +183,20 @@ body.slide-active {
     padding: 1%;
     border-radius: 25px;
 
+    @media (min-width: $screen-md) {
+      font-size: 2em;
+      margin-left: 36%;
+
+
+    }
+
   }
 
   .playCircle{
     font-size: 2.5em;
 
     @media (min-width: $screen-md) {
-      font-size: 60px;
+      font-size: 70px;
     }
 
   }
