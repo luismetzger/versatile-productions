@@ -1,483 +1,240 @@
-/****************************************************
-  * Navigation Bar
- *****************************************************/
-.navbar-inverse {
-    .navbar-nav {
-        > li {
-            > a {
-                color: $navbar-inverse-brand-hover-color;
-                font-family: $badass-font;
-                font-size: $font-size-small * 2;
-                line-height: $line-height-computed;
-            }
-        }
-    }
+/* adjust body when menu is open */
+
+body.slide-active {
+  overflow-x: hidden;
 }
 
-.custom-navbar {
-  background-color: rgba(0,0,0,0.0);
-  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
-  height: 50px;
-  border-bottom: 0px;
-  transition: background-color .5s ease 0s;
-  padding-bottom: 85px
+/*first child of #page-content so it doesn't shift around*/
+
+.no-margin-top {
+  margin-top: 0px !important;
 }
 
-.custom-navbar.opaque {
-  background-color: rgba(0, 0, 0, 0.35);
-  height: 50px;
-  transition: background-color .5s ease 0s;
- padding-bottom: 85px;
-}
-.nav {
-    > li {
-        padding: 15px;
-    }
-}
-.navbar-inverse {
-    
-     .btn-link {
-        color: $navbar-inverse-brand-hover-color;
-        font-family: 'Lato', sans-serif;
-        font-size: $font-size-small * 2;
-        line-height: $line-height-computed;
-        border-style: solid;
-        border-color: $navbar-inverse-brand-hover-color;
-        border-radius: 30px;
-        padding: 20px;
-        text-decoration: none;
-        margin-top: -10px;
-         
-         &:hover {
-             background-color: $btn-default-bg;
-             color: $btn-default-color;
-             border-color: $btn-default-border;
-             @include transition(background-color 0.5s ease, color 0.5s ease);
-         }
-    }
+/*wrap the entire page content but not nav inside this div if not a fixed top, don't add any top padding */
+
+#page-content {
+  position: relative;
+  padding-top: 70px;
+  left: 0;
+  &.slide-active {
+    padding-top: 0;
+  }
 }
 
-/****************************************************
-  * Mobile Navigation Bar
- *****************************************************/
+/* put toggle bars on the left :: not using button */
 
-
-.menu-toggle {
-  width: 40px;
-  height: 30px;
-  position: absolute;
-  top: 20px;
-  right: 25px;
+#slide-nav .navbar-toggle {
   cursor: pointer;
-  
-  &.on {
-    .one {
-    transform:  transform(rotate(45deg) translate(7px, 7px));
-    }
-
-    .two {
-      opacity: 0;
-    }
-
-    .three {
-      @include transform (rotate(-45deg) translate(8px, -10px));
-    }
-  }
-}
-
-.one,
-.two,
-.three{
-  width: 100%;
-  height: 5px;
-  background: white;
-  margin: 6px auto;
-  backface-visibility: hidden;
-  @include transition-duration(0.3s);
-}
-
-nav ul{
+  position: relative;
+  line-height: 0;
+  float: left;
   margin: 0;
-  padding: 0;
-  font-family: Open Sans;
-  list-style: none;
-  margin: 4em auto;
-  text-align: center;
-  
-  &.hidden {
-    display: none;
-  }
-    
-    a {
-    @include transition-duration(0.5s);
-    text-decoration: none;
-    color: white;
-    font-size: 3em;
-    line-height: 1.5;
+  width: 30px;
+  height: 40px;
+  padding: 10px 0 0 0;
+  border: 0;
+  background: transparent;
+  > .icon-bar {
     width: 100%;
     display: block;
-      &:hover {
-        background-color: rgba(0,0,0,0.5);
+    height: 3px;
+    margin: 5px 0 0 0;
+  }
+  &.slide-active .icon-bar {
+    background: orange;
+  }
+}
+
+/* icon bar prettyup - optional */
+
+.navbar-header, .navbar.navbar-fixed-top.slide-active {
+  position: relative;
+}
+
+/* un fix the navbar when active so that all the menu items are accessible */
+
+/* screw writing importants and shit, just stick it in max width since these classes are not shared between sizes */
+@media (max-width: 767px) {
+  #slide-nav {
+    .container {
+      margin: 0;
+      padding: 0 !important;
+    }
+    .navbar-header {
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+    .navbar.slide-active {
+      position: absolute;
+      width: 80%;
+      top: -1px;
+      z-index: 1000;
+    }
+    #slidemenu {
+      background: #f7f7f7;
+      left: -100%;
+      width: 80%;
+      min-width: 0;
+      position: absolute;
+      padding-left: 0;
+      z-index: 2;
+      top: -8px;
+      margin: 0;
+      .navbar-nav {
+        min-width: 0;
+        width: 100%;
+        margin: 0;
+        .dropdown-menu li a {
+          min-width: 0;
+          width: 80%;
+          white-space: normal;
+        }
       }
     }
-}
-
-.menu-section {
-  &.on {
-  z-index: 10;
-  width: 100%;
-  height: 100%;
-  display: block;
-  background-color: rgba(0,0,0,0.5);
-  position: absolute;
-  }
-}
-
-/****************************************************
-  * Video Header
-  *****************************************************/
-
-.slide-container{
-  position:relative;
-  width:100%;
-  height:100vh;
-  min-height:250px;
-  overflow: hidden;
-}
-.slide{
-  position: absolute;
-  width:100%;
-  height:100%;
-  text-align: center;
-  color: #212121;    
-  
-  
-  
-    
-    h1 {
-      color: $navbar-inverse-brand-hover-color;
-      font-family: 'Pacifico', cursive;
-      font-weight: bold;
-      font-size: $font-size-h1 * 4;
-      letter-spacing: 2px;
-      padding: 10px;
+    border-top: 0;
+    &.navbar-inverse #slidemenu {
+      background: #333;
     }
-    h3 {
-      color: $navbar-inverse-brand-hover-color;
-      font-family: 'Lato', sans-serif;
-      font-size: $font-size-h3;
-      letter-spacing: 2px;
-      padding: 10px 550px;
-        
-        @media screen and (max-width: $screen-md) {
-            padding: 10px 200px;
-        }
-    }
-    .fa-5x {
-        font-size: 8em;
-        color: rgba(255,255,255,0.75);
-        padding-top: 20px;
-        @include transition(background-color 0.5s ease, color 0.5s ease);
-        
-        &:hover {
-            color: rgba(255,255,255,1.0);
-            
-        }
-    }
-}
-/* Background Image and Overlay */
-.tinted-image {
-  background: 
-    /* top, transparent red, faked with gradient */ 
-    linear-gradient(
-      rgba(0, 0, 0, 0.35), 
-      rgba(0, 0, 0, 0.35)
-    ),
-    /* bottom, image */
-    url('../../../../images/snow-mountains-forest-winter.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-.absolute-center{
-  position: absolute;
-  top:0;bottom:0;left:0;right:0;
-  margin: auto;
-}
-.slide1{
-  z-index: 10;
-}
-.slide2{
-  z-index: 20;
-  visibility: hidden;
-}
-.slide2 video{
-  position:absolute;
-  top:0;
-  left:-50%;
-  z-index:0;
-    
-  @media screen and (min-width: $screen-sm-min) {
-        width: 200%;
-    }
-  @media screen and (max-width: $screen-xs) {
-        width: 400%;
-    }
-}
-.button-container{
-  height:350px;
-}
-.text-left{
-  text-align: left;
-}
-.form-wrap{
-  height: 100%;
-  max-height: 170px;
-}
-form {  
-  position:relative;
-  width: 90%;
-  max-width: 400px;
-  padding:40px;
-  z-index: 150;
-  font-weight:500;
-  font-family: Tahoma; 
-  margin: 0 auto;
-  background-color: rgba(0,0,0,0.1);
-    
-    label {
-        font-weight: bold;
-        font-size: 16px;
-        letter-spacing: 1px; 
-    }
-    input, form textarea {
-    width: 100%;
-    letter-spacing: 0px;
-    font-size: 16px;
-    padding: 5px;
-    font-weight: 600;
-    -webkit-transition: box-shadow 700ms, background-color 700ms, padding 250ms;
-    transition: box-shadow 700ms, background-color 700ms, padding 250ms; 
-    resize: none;
-    height: 100px; 
-    
-    &:focus {
-       background-color: #ffffd8;
-       border: solid 1px transparent;
-       box-shadow: 0 0 3px #aaa;      
-    }
-    *:focus {
-        outline: none;     
-    }
-  }
-}
-.form-close {
-    &:before {
-      position:absolute;
-      content: "\2716";
-      top:0;right:2px;
-      height:26px;width:26px;
-      font-size: 26px;
-      text-shadow: 0px 0px 4px rgba(255,255,255,0.4);
-      cursor:pointer;
-    }
-}
-.sendText{
-  font-weight:bold;
-}
-
-/*
-==============================================
-slideUp
-==============================================
-*/
-
-
-.slideUp{
-	animation-name: slideUp;
-	-webkit-animation-name: slideUp;	
-
-	animation-duration: 250ms;	
-	-webkit-animation-duration: 250ms;
-
-	animation-timing-function: ease;	
-	-webkit-animation-timing-function: ease;
-
-	visibility: visible !important;			
-}
-
-@keyframes slideUp {
-	0% {
-		transform: translateY(100%);
-	}
-	100% {
-		transform: translateY(0%);
-	}	
-}
-
-@-webkit-keyframes slideUp {
-	0% {
-		-webkit-transform: translateY(100%);
-	}
-	100% {
-		-webkit-transform: translateY(0%);
-	}	
-}
-/*
-==============================================
-slideLeftOut
-==============================================
-*/
-.slideLeftOut{
-	animation-name: slideLeftOut;
-	-webkit-animation-name: slideLeftOut;	
-
-	animation-duration: 375ms;	
-	-webkit-animation-duration: 375ms;
-
-	animation-timing-function: ease-in-out;	
-	-webkit-animation-timing-function: ease-in-out;		
-  visibility: visible !important;
-}
-
-@keyframes slideLeftOut {
-	0% {
-		transform: translateX(0%);
-	}
-	50%{
-		transform: translateX(8%);
-	}	
-	100% {
-		transform: translateX(-150%);
-	}
-}
-
-/*
-==============================================
-slideDownOut
-==============================================
-*/
-
-.slideDownOut{
-	animation-name: slideDownOut;
-	-webkit-animation-name: slideDownOut;	
-
-	animation-duration: 250ms;	
-	-webkit-animation-duration: 250ms;
-
-	animation-timing-function: ease;	
-	-webkit-animation-timing-function: ease;
-
-	visibility: visible !important;			
-}
-
-@keyframes slideDownOut {
-	0% {
-		transform: translateY(0%);
-	}
-	100% {
-		transform: translateY(100%);
-	}	
-}
-
-.spinner {
-  margin: 1px auto;
-  width: 50px;
-  height: 20px;
-  text-align: center;
-  font-size: 5px;
-    
-    > div {
-      background-color: #333;
+    #navbar-height-col {
+      position: fixed;
+      top: 0;
       height: 100%;
-      width: 3px;
-      display: inline-block;
-
-      -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
-      animation: stretchdelay 1.2s infinite ease-in-out;
+      width: 80%;
+      left: -80%;
+      background: #eee;
     }
-    .rect2 {
-      -webkit-animation-delay: -1.1s;
-      animation-delay: -1.1s;
+    &.navbar-inverse #navbar-height-col {
+      background: #333;
+      z-index: 1;
+      border: 0;
     }
-    .rect3 {
-      -webkit-animation-delay: -1.0s;
-      animation-delay: -1.0s;
+    .navbar-form {
+      width: 100%;
+      margin: 8px 0;
+      text-align: center;
+      overflow: hidden;
+      /*fast clearfixer*/
+      .form-control {
+        text-align: center;
+      }
+      .btn {
+        width: 100%;
+      }
     }
-     .rect4 {
-      -webkit-animation-delay: -0.9s;
-      animation-delay: -0.9s;
-    }
-     .rect5 {
-      -webkit-animation-delay: -0.8s;
-      animation-delay: -0.8s;
-    }
+  }
+  /* this is behind the navigation but the navigation is not inside it so that the navigation is accessible and scrolls*/
 }
 
-@keyframes stretchdelay {
-  0%, 40%, 100% { 
-    transform: scaleY(0.4);
-    -webkit-transform: scaleY(0.4);
-  }  20% { 
-    transform: scaleY(1.0);
-    -webkit-transform: scaleY(1.0);
+@media (min-width: 768px) {
+  #page-content {
+    left: 0 !important;
+  }
+  .navbar.navbar-fixed-top.slide-active {
+    position: fixed;
+  }
+  .navbar-header {
+    left: 0 !important;
   }
 }
 
 
-/****************************************************
-  * Content Sections
-  *****************************************************/
+#topSectionA{
 
-.section-container {
-   
-    padding: 100px;
-    
-     h2 {
-        margin-top: 10px;
-        font-size: 38px;
-        font-weight: 100;
-        color: #555;
-        line-height: 50px;
+  background-image: $snowMountainForestWinter;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: $white;
+
+  @media (min-width: $screen-md) {
+    height: 565px;
+    padding: 7%;
+   }
+
+  .headTxt{
+
+    font-size: 1.71875em;
+
+    @media (min-width: $screen-md) {
+      font-size: 52px;
     }
-    h3 {
-        font-size: 22px;
-        font-weight: 500;
-        color: #555;
-        line-height: 30px;
-        padding: 20px 0;
+
+  }
+
+  .subheadTxt{
+
+    font-size: 1em;
+    width: 80%;
+    margin: auto;
+
+    @media (min-width: $screen-md) {
+      font-size: 1.8em;
+      width: 100%;
+      margin: auto;
+      padding: 2% 14%;
     }
-    p {
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-size: 18px;
-        line-height: 32px;
-        margin: 0 0 10px;
-        padding-right: 250px;
+  }
+
+  #subheadRectangle{
+    border: 1px solid $white;
+    width: 28%;
+    margin: 3% auto;
+    margin-bottom: 2%;
+    padding: 1%;
+    border-radius: 25px;
+
+    @media (min-width: $screen-md) {
+      font-size: 2em;
+      margin-left: 36%;
+
+
     }
-    img {
-        width: 650px;
+
+  }
+
+  .playCircle{
+    font-size: 2.5em;
+
+    @media (min-width: $screen-md) {
+      font-size: 70px;
     }
+
+  }
+
 }
-.divider-1 {
-    visibility: visible;
-    
-    span {
-        display: inline-block;
-        width: 200px;
-        height: 1px;
-        background: #ddd;
-    }
+
+.commentHeadContainer{
+
+  .commentHeadRow{
+
+    h2{}
+    span{}
+
+  }
 }
 
-/****************************************************
-  * 2 Column Section
-  *****************************************************/
+.homeBodyContainer{
 
-.column-section {
-    background-color: #F9F9FA;
-    border-bottom-style: solid;
-    border-top-style: solid;
-    border-top-color: #DDDDDD;
-    border-bottom-color: #DDDDDD;
+  .homeBodyContainer{
+
+    .homeBodyContent{
+
+      h3{
+
+      }
+      p{
+
+      }
+
+    }
+  }
+
+  .homeBodyImageContainer{
+
+    img{
+
+    }
+  }
+
+
 }
