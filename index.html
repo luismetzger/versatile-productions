@@ -36,46 +36,28 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
      </a>
-    <a class="navbar-brand" href="#">Project name</a>
+    <a class="navbar-brand" href="#">Logo</a>
    </div>
    <div id="slidemenu">
 
-          <form class="navbar-form navbar-right" role="form">
-            <div class="form-group">
-              <input type="search" placeholder="search" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-primary">Search</button>
-          </form>
-
     <ul class="nav navbar-nav">
      <li class="active"><a href="#">Home</a></li>
-     <li><a href="#about">About</a></li>
-     <li><a href="#contact">Contact</a></li>
-     <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+     <li><a href="#">About</a></li>
+     <li><a href="#">Service</a></li>
+     <li><a href="#">Portfolio</a></li>
+     <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">FAQ <b class="caret"></b></a>
       <ul class="dropdown-menu">
        <li><a href="#">Action</a></li>
        <li><a href="#">Another action</a></li>
        <li><a href="#">Something else here</a></li>
        <li class="divider"></li>
-       <li class="dropdown-header">Nav header</li>
        <li><a href="#">Separated link</a></li>
-       <li><a href="#">One more separated link</a></li>
-       <li><a href="#">Action</a></li>
-       <li><a href="#">Another action</a></li>
-       <li><a href="#">Something else here</a></li>
        <li class="divider"></li>
-       <li class="dropdown-header">Nav header</li>
-       <li><a href="#">Separated link</a></li>
-       <li><a href="#">One more separated link</a></li>
-       <li><a href="#">Action</a></li>
-       <li><a href="#">Another action</a></li>
-       <li><a href="#">Something else here</a></li>
-       <li class="divider"></li>
-       <li class="dropdown-header">Nav header</li>
-       <li><a href="#">Separated link test long title goes here</a></li>
        <li><a href="#">One more separated link</a></li>
       </ul>
      </li>
+     <li><a href="#">Contact Us</a></li>
+     <li id="navPhone"><a href="#">555-555-5555</a></li>
     </ul>
 
    </div>
@@ -87,39 +69,205 @@
  <div id="page-content">
 
   <div class="container" >
-    <h1 class="no-margin-top">Bootstrap starter template</h1>
-    <p class="lead">Use this document as a way to quickly start any new project. All you get is this text and a mostly barebones HTML document.</p>
 
-        <p class="lead">Use this document as a way to quickly start any new project. All you get is this text and a mostly barebones HTML document.</p>
+      <!-- VIDEO HEADER -->
+    <header class="slide-container">
+      <div class='slide slide1 tinted-image'>
+        <div class='absolute-center button-container'>
+            <h1>Welcome</h1>
+            <h3>Versatile Productions is a full service video production company offering live streaming for TV, film, and social media.</h3>
+            <i id="contact-button" class="fa fa-play-circle fa-5x"></i>
+        </div>
+      </div><!-- /slide1 -->
+      <div class='slide slide2'>
+
+      <video id="video" autoplay='true'  preload="none"  loop="loop" muted="muted" volume="0" poster="http://cdn.davecampion.com/timelapse-demo/poster.png">
+      </video>
+      <div class='form-wrap absolute-center'>
+
+        <form class="text-left inner-form">
+          <span class='form-close'></span>
+          <div>
+            <input type="email" id="email" name="email" placeholder="youremail@awesome.com" required autofocus>
+          </div>
+          <div>
+            <textarea id="msg" name="msg" placeholder="Send Me Something Rad!" required></textarea>
+          </div>
+          <div class="button text-right">
+             <button id='cancel' class="btn-xs btn-danger">Cancel</button>
+             <button id="send" class="btn-xs btn-default btn" type="submit">
+       <span class='sendText'>Send</span>
+       <div class="spinner hidden">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+        </button>
+          </div>
+        </form>
+        </div><!--/.form-wrap-->
+      </div>
+    </header><!--/.slide-container-->
+
+    <!-- CONTENT SECTIONS -->
+    <div class="section-container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>What We Do</h2>
+                    <div class="divider-1">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="#">
+                        <h3>Video Production</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-5">
+                    <img src="images/video.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <hr>
+
+    <div class="section-container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-5">
+                    <img src="images/video.png" />
+                </div>
+
+                 <div class="col-sm-7">
+                    <div class="#">
+                        <h3>Video Production</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <hr>
+
+    <div class="section-container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="#">
+                        <h3>Video Production</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+
+                <div class="col-sm-5">
+                    <img src="images/video.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <hr>
+
+    <div class="section-container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-7">
+                    <img src="images/video.png" />
+                </div>
+
+                 <div class="col-sm-5">
+                    <div class="#">
+                        <h3>Video Production</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
+    <!-- 2 C0LUMN CONTENT -->
+    <div class="section-container column-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2>Thirty Five Years of Experience</h2>
+                    <h3>with major television networks and fortune 100-500 companies.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Versatile has the knowledge and the edge to produce creative and diverse projects for its clients. To sustain a  business since 1981 Versatile has kept up with technology to the highest degree, as it relates new media integration.   What is “New Media”  Versatile defines it in three areas, software  hardware and the internet.  There is a vast amount of software available to everyone, but knowing what to use for specific application or projects can be the key to how you want your video to look, feel, move.  
+                    </p>
+                    <p>Versatile uses professional HD cameras, but everyone has HD cameras on their devices,  so weather we shoot footage or you shoot the footage, the trick is to how you integrate various formats in a project and maintain a professional outcome and Versatile has the experience to take your vision to a presentable professional level.  Oh yes the internet, knowing how to utilize social media during your production is #1 important.      </p>
+                </div>
+                <div class="col-md-6">
+                    <p>Versatile can optimize your project so it can be distributed and shared with other media partners to move you project goal forward at a high level.  Versatile Productions takes pride in what we do, quality, integrity, and creative fortitude will continue to move our business into the next century.
+                    </p>
+                    <p>Versatile Productions  culture is one of creativity and resourcefulness.  Using the tools available within all facets of New Media, we spend our time formulating new ideas directed toward your defined objectives.  The development of creative, targeted and effective communication initiatives are essential to an organization’s success.  VPI works with each client to understand their culture so that we can create a unique program concept.  Your message will be subtly integrated into all elements of the program – from initial branding and logo design to promotional media to web site execution.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <p class="lead">Use this document as a way to quickly start any new project. All you get is this text and a mostly barebones HTML document.</p>
+
+    <!-- VIDEO SHOWCASE SECTION -->
+    <div class="slide-container">
+      <div class='slide slide1 tinted-image'>
+        <div class='absolute-center button-container'>
+            <h1>Welcome</h1>
+            <h3>Versatile Productions is a full service video production company offering live streaming for TV, film, and social media.</h3>
+            <i id="contact-button" class="fa fa-play-circle fa-5x"></i>
+        </div>
+      </div><!-- /slide1 -->
+      <div class='slide slide2'>
+
+      <video id="video" autoplay='true'  preload="none"  loop="loop" muted="muted" volume="0" poster="http://cdn.davecampion.com/timelapse-demo/poster.png">
+      </video>
+      <div class='form-wrap absolute-center'>
+
+        <form class="text-left inner-form">
+          <span class='form-close'></span>
+          <div>
+            <input type="email" id="email" name="email" placeholder="youremail@awesome.com" required autofocus>
+          </div>
+          <div>
+            <textarea id="msg" name="msg" placeholder="Send Me Something Rad!" required></textarea>
+          </div>
+          <div class="button text-right">
+             <button id='cancel' class="btn-xs btn-danger">Cancel</button>
+             <button id="send" class="btn-xs btn-default btn" type="submit">
+       <span class='sendText'>Send</span>
+       <div class="spinner hidden">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+      </div>
+        </button>
+          </div>
+        </form>
+        </div><!--/.form-wrap-->
+      </div>
+    </div><!--/.slide-container-->
 
 
-
-        <p class="lead">Use this document as a way to quickly start any new project. All you get is this text and a mostly barebones HTML document.</p>
-
-
-
-
-        <p class="lead">Use this document as a way to quickly start any new project. All you get is this text and a mostly barebones HTML document.</p>
-
-
-        <p class="lead">Use this document as a way to quickly start any new project. All you get is this text and a mostly barebones HTML document.</p>
-
-
-        <p class="lead">Use this document as a way to quickly start any new project. All you get is this text and a mostly barebones HTML document.</p>
-
-
-        <p class="lead">Use this document as a way to quickly start any new project. All you get is this text and a mostly barebones HTML document.</p>
-
-
-        <p class="lead">Use this document as a way to quickly start any new project. All you get is this text and a mostly barebones HTML document.</p>
-
-
-
-        <p class="lead">Use this document as a way to quickly start any new project. All you get is this text and a mostly barebones HTML document.</p>
 
 
 
@@ -141,202 +289,7 @@
 
 
 
-<!-- VIDEO HEADER -->
-<header class="slide-container">
-  <div class='slide slide1 tinted-image'>
-    <div class='absolute-center button-container'>
-        <h1>Welcome</h1>
-        <h3>Versatile Productions is a full service video production company offering live streaming for TV, film, and social media.</h3>
-        <i id="contact-button" class="fa fa-play-circle fa-5x"></i>
-    </div>
-  </div><!-- /slide1 -->
-  <div class='slide slide2'>
 
-  <video id="video" autoplay='true'  preload="none"  loop="loop" muted="muted" volume="0" poster="http://cdn.davecampion.com/timelapse-demo/poster.png">
-  </video>
-  <div class='form-wrap absolute-center'>
-
-    <form class="text-left inner-form">
-      <span class='form-close'></span>
-      <div>
-        <input type="email" id="email" name="email" placeholder="youremail@awesome.com" required autofocus>
-      </div>
-      <div>
-        <textarea id="msg" name="msg" placeholder="Send Me Something Rad!" required></textarea>
-      </div>
-      <div class="button text-right">
-         <button id='cancel' class="btn-xs btn-danger">Cancel</button>
-         <button id="send" class="btn-xs btn-default btn" type="submit">
-   <span class='sendText'>Send</span>
-   <div class="spinner hidden">
-    <div class="rect1"></div>
-    <div class="rect2"></div>
-    <div class="rect3"></div>
-    <div class="rect4"></div>
-    <div class="rect5"></div>
-  </div>
-    </button>
-      </div>
-    </form>
-    </div><!--/.form-wrap-->
-  </div>
-</header><!--/.slide-container-->
-
-<!-- CONTENT SECTIONS -->
-<div class="section-container">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2>What We Do</h2>
-                <div class="divider-1">
-                    <span></span>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-7">
-                <div class="#">
-                    <h3>Video Production</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                </div>
-            </div>
-
-            <div class="col-sm-5">
-                <img src="images/video.png" />
-            </div>
-        </div>
-    </div>
-</div>
-
-    <hr>
-
-<div class="section-container">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-5">
-                <img src="images/video.png" />
-            </div>
-
-             <div class="col-sm-7">
-                <div class="#">
-                    <h3>Video Production</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-    <hr>
-
-<div class="section-container">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-7">
-                <div class="#">
-                    <h3>Video Production</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                </div>
-            </div>
-
-            <div class="col-sm-5">
-                <img src="images/video.png" />
-            </div>
-        </div>
-    </div>
-</div>
-
-    <hr>
-
-<div class="section-container">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-7">
-                <img src="images/video.png" />
-            </div>
-
-             <div class="col-sm-5">
-                <div class="#">
-                    <h3>Video Production</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<!-- 2 C0LUMN CONTENT -->
-<div class="section-container column-section">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12 text-center">
-                <h2>Thirty Five Years of Experience</h2>
-                <h3>with major television networks and fortune 100-500 companies.</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <p>Versatile has the knowledge and the edge to produce creative and diverse projects for its clients. To sustain a  business since 1981 Versatile has kept up with technology to the highest degree, as it relates new media integration.   What is “New Media”  Versatile defines it in three areas, software  hardware and the internet.  There is a vast amount of software available to everyone, but knowing what to use for specific application or projects can be the key to how you want your video to look, feel, move.  
-                </p>
-                <p>Versatile uses professional HD cameras, but everyone has HD cameras on their devices,  so weather we shoot footage or you shoot the footage, the trick is to how you integrate various formats in a project and maintain a professional outcome and Versatile has the experience to take your vision to a presentable professional level.  Oh yes the internet, knowing how to utilize social media during your production is #1 important.      </p>
-            </div>
-            <div class="col-md-6">
-                <p>Versatile can optimize your project so it can be distributed and shared with other media partners to move you project goal forward at a high level.  Versatile Productions takes pride in what we do, quality, integrity, and creative fortitude will continue to move our business into the next century.
-                </p>
-                <p>Versatile Productions  culture is one of creativity and resourcefulness.  Using the tools available within all facets of New Media, we spend our time formulating new ideas directed toward your defined objectives.  The development of creative, targeted and effective communication initiatives are essential to an organization’s success.  VPI works with each client to understand their culture so that we can create a unique program concept.  Your message will be subtly integrated into all elements of the program – from initial branding and logo design to promotional media to web site execution.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<!-- VIDEO SHOWCASE SECTION -->
-<div class="slide-container">
-  <div class='slide slide1 tinted-image'>
-    <div class='absolute-center button-container'>
-        <h1>Welcome</h1>
-        <h3>Versatile Productions is a full service video production company offering live streaming for TV, film, and social media.</h3>
-        <i id="contact-button" class="fa fa-play-circle fa-5x"></i>
-    </div>
-  </div><!-- /slide1 -->
-  <div class='slide slide2'>
-
-  <video id="video" autoplay='true'  preload="none"  loop="loop" muted="muted" volume="0" poster="http://cdn.davecampion.com/timelapse-demo/poster.png">
-  </video>
-  <div class='form-wrap absolute-center'>
-
-    <form class="text-left inner-form">
-      <span class='form-close'></span>
-      <div>
-        <input type="email" id="email" name="email" placeholder="youremail@awesome.com" required autofocus>
-      </div>
-      <div>
-        <textarea id="msg" name="msg" placeholder="Send Me Something Rad!" required></textarea>
-      </div>
-      <div class="button text-right">
-         <button id='cancel' class="btn-xs btn-danger">Cancel</button>
-         <button id="send" class="btn-xs btn-default btn" type="submit">
-   <span class='sendText'>Send</span>
-   <div class="spinner hidden">
-    <div class="rect1"></div>
-    <div class="rect2"></div>
-    <div class="rect3"></div>
-    <div class="rect4"></div>
-    <div class="rect5"></div>
-  </div>
-    </button>
-      </div>
-    </form>
-    </div><!--/.form-wrap-->
-  </div>
-</div><!--/.slide-container-->
 
 
 
