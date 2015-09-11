@@ -5219,104 +5219,110 @@ tbody.collapse.in {
 /* line 532, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-inverse {
   background-color: #222;
-  border-color: #090909;
-  background-color: white;
-  border-color: white;
-  position: absolute;
-  top: 10%;
-  right: 10%; }
-  /* line 542, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+  border-color: #090909; }
+  @media (min-width: 992px) {
+    /* line 532, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+    .navbar-inverse {
+      background: transparent;
+      border-color: transparent;
+      top: 6%;
+      right: 10%; } }
+  /* line 543, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-brand {
     color: #9d9d9d; }
-    /* line 545, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+    /* line 546, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-brand:hover,
     .navbar-inverse .navbar-brand:focus {
       color: #fff;
       background-color: transparent; }
-  /* line 551, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+  /* line 552, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-text {
     color: #9d9d9d; }
-  /* line 556, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+  /* line 557, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav > li > a {
     color: #9d9d9d; }
-    /* line 560, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+    @media (min-width: 992px) {
+      /* line 557, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+      .navbar-inverse .navbar-nav > li > a {
+        color: white;
+        font-size: 1.2em; } }
+    /* line 567, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-nav > li > a:hover,
     .navbar-inverse .navbar-nav > li > a:focus {
       color: #fff;
       background-color: transparent; }
-  /* line 568, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+  /* line 575, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav > .active > a,
   .navbar-inverse .navbar-nav > .active > a:hover,
   .navbar-inverse .navbar-nav > .active > a:focus {
     color: #fff;
     background-color: #090909; }
-  /* line 576, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+  /* line 583, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav > .disabled > a,
   .navbar-inverse .navbar-nav > .disabled > a:hover,
   .navbar-inverse .navbar-nav > .disabled > a:focus {
     color: #444;
     background-color: transparent; }
-  /* line 584, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+  /* line 591, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-toggle {
     border-color: #333; }
-    /* line 587, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+    /* line 594, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-toggle:hover,
     .navbar-inverse .navbar-toggle:focus {
       background-color: #333; }
-    /* line 590, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+    /* line 597, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-toggle .icon-bar {
       background-color: #fff; }
-  /* line 596, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+  /* line 603, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-collapse,
   .navbar-inverse .navbar-form {
     border-color: #101010; }
-  /* line 605, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+  /* line 612, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-nav > .open > a,
   .navbar-inverse .navbar-nav > .open > a:hover,
   .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #090909;
     color: #fff; }
   @media (max-width: 767px) {
-    /* line 614, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+    /* line 621, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
       border-color: #090909; }
-    /* line 617, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+    /* line 624, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
       background-color: #090909; }
-    /* line 620, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+    /* line 627, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
       color: #9d9d9d; }
-      /* line 623, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+      /* line 630, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
       .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
       .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
         color: #fff;
         background-color: transparent; }
-    /* line 631, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+    /* line 638, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
     .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
     .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #fff;
       background-color: #090909; }
-    /* line 639, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+    /* line 646, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
     .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
     .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
       color: #444;
       background-color: transparent; } }
-  /* line 648, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+  /* line 655, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .navbar-link {
     color: #9d9d9d; }
-    /* line 650, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+    /* line 657, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .navbar-link:hover {
       color: #fff; }
-  /* line 655, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+  /* line 662, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-inverse .btn-link {
     color: #9d9d9d; }
-    /* line 658, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+    /* line 665, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .btn-link:hover,
     .navbar-inverse .btn-link:focus {
       color: #fff; }
-    /* line 664, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
+    /* line 671, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-inverse .btn-link[disabled]:hover,
     .navbar-inverse .btn-link[disabled]:focus,
     fieldset[disabled] .navbar-inverse .btn-link:hover,
@@ -7494,14 +7500,18 @@ body.slide-active {
 /* line 15, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 #page-content {
   position: relative;
-  padding-top: 70px;
+  padding-top: 50px;
   left: 0; }
-  /* line 19, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  @media (min-width: 992px) {
+    /* line 15, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    #page-content {
+      padding-top: 0px; } }
+  /* line 25, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   #page-content.slide-active {
     padding-top: 0; }
 
 /* put toggle bars on the left :: not using button */
-/* line 26, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 32, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 #slide-nav .navbar-toggle {
   cursor: pointer;
   position: relative;
@@ -7513,42 +7523,42 @@ body.slide-active {
   padding: 10px 0 0 0;
   border: 0;
   background: transparent; }
-  /* line 37, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 43, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   #slide-nav .navbar-toggle > .icon-bar {
     width: 100%;
     display: block;
     height: 3px;
     margin: 5px 0 0 0; }
-  /* line 43, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 49, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   #slide-nav .navbar-toggle.slide-active .icon-bar {
     background: orange; }
 
 /* icon bar prettyup - optional */
-/* line 50, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 56, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .navbar-header, .navbar.navbar-fixed-top.slide-active {
   position: relative; }
 
 /* un fix the navbar when active so that all the menu items are accessible */
 /* screw writing importants and shit, just stick it in max width since these classes are not shared between sizes */
 @media (max-width: 767px) {
-  /* line 58, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 64, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   #slide-nav {
     border-top: 0; }
-    /* line 59, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 65, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     #slide-nav .container {
       margin: 0;
       padding: 0 !important; }
-    /* line 63, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 69, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     #slide-nav .navbar-header {
       margin: 0 auto;
       padding: 0 15px; }
-    /* line 67, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 73, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     #slide-nav .navbar.slide-active {
       position: absolute;
       width: 80%;
       top: -1px;
       z-index: 1000; }
-    /* line 73, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 79, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     #slide-nav #slidemenu {
       background: #f7f7f7;
       left: -100%;
@@ -7559,20 +7569,20 @@ body.slide-active {
       z-index: 2;
       top: -8px;
       margin: 0; }
-      /* line 83, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+      /* line 89, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
       #slide-nav #slidemenu .navbar-nav {
         min-width: 0;
         width: 100%;
         margin: 0; }
-        /* line 87, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+        /* line 93, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
         #slide-nav #slidemenu .navbar-nav .dropdown-menu li a {
           min-width: 0;
           width: 80%;
           white-space: normal; }
-    /* line 95, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 101, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     #slide-nav.navbar-inverse #slidemenu {
       background: #333; }
-    /* line 98, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 104, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     #slide-nav #navbar-height-col {
       position: fixed;
       top: 0;
@@ -7580,51 +7590,56 @@ body.slide-active {
       width: 80%;
       left: -80%;
       background: #eee; }
-    /* line 106, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 112, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     #slide-nav.navbar-inverse #navbar-height-col {
       background: #333;
       z-index: 1;
       border: 0; }
-    /* line 111, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 117, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     #slide-nav .navbar-form {
       width: 100%;
       margin: 8px 0;
       text-align: center;
       overflow: hidden;
       /*fast clearfixer*/ }
-      /* line 117, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+      /* line 123, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
       #slide-nav .navbar-form .form-control {
         text-align: center; }
-      /* line 120, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+      /* line 126, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
       #slide-nav .navbar-form .btn {
         width: 100%; }
   /* this is behind the navigation but the navigation is not inside it so that the navigation is accessible and scrolls*/ }
 
 @media (min-width: 768px) {
-  /* line 129, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 135, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   #page-content {
     left: 0 !important; }
-  /* line 132, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 138, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   .navbar.navbar-fixed-top.slide-active {
     position: fixed; }
-  /* line 135, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 141, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   .navbar-header {
     left: 0 !important; } }
 
-/* line 143, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 149, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .webNav {
   display: none; }
 
 @media (min-width: 992px) {
-  /* line 151, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 157, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   .webNav {
     display: inline;
     position: absolute;
     right: 0;
     top: 10px;
-    width: 80%; } }
+    width: 80%; }
+  /* line 165, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  .phoneNumber {
+    border: 1px solid white;
+    padding: 3%;
+    border-radius: 25px; } }
 
-/* line 164, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 177, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 #topSectionA {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../../../../images/snow-mountains-forest-winter.svg");
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../../../../images/snow-mountains-forest-winter.svg");
@@ -7634,33 +7649,33 @@ body.slide-active {
   color: #ffffff; }
 
 @media (min-width: 992px) {
-  /* line 175, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 188, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   .topContainer {
     height: 565px;
     padding: 7%; } }
 
-/* line 184, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 197, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .topContainer .headTxt {
   font-size: 1.71875em; }
   @media (min-width: 992px) {
-    /* line 184, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 197, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     .topContainer .headTxt {
       font-size: 52px; } }
 
-/* line 194, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 207, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .topContainer .subheadTxt {
   font-size: 1em;
   width: 80%;
   margin: auto; }
   @media (min-width: 992px) {
-    /* line 194, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 207, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     .topContainer .subheadTxt {
       font-size: 1.8em;
       width: 100%;
       margin: auto;
       padding: 2% 14%; } }
 
-/* line 208, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 221, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .topContainer #subheadRectangle {
   border: 1px solid #ffffff;
   width: 28%;
@@ -7669,211 +7684,211 @@ body.slide-active {
   padding: 1%;
   border-radius: 25px; }
   @media (min-width: 992px) {
-    /* line 208, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 221, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     .topContainer #subheadRectangle {
       font-size: 2em;
       margin-left: 36%; } }
 
-/* line 225, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 238, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .topContainer .playCircle {
   font-size: 2.5em; }
   @media (min-width: 992px) {
-    /* line 225, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 238, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     .topContainer .playCircle {
       font-size: 70px; } }
 
-/* line 240, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 253, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .commentHeadContainer .commentHeadRow h2 {
   font-size: 2em; }
   @media (min-width: 992px) {
-    /* line 240, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 253, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     .commentHeadContainer .commentHeadRow h2 {
       font-size: 36px; } }
 
-/* line 248, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 261, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .commentHeadContainer .commentHeadRow .headingSpan {
   display: inline-block;
   border-bottom: 1px solid black;
   padding-bottom: 2px; }
 
-/* line 258, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 271, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .homeBodyMasterContainer {
   width: 100%;
   margin: auto;
   padding-bottom: 4%; }
-  /* line 269, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 282, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   .homeBodyMasterContainer .homeBodyContainer .homeBodyContent {
     padding: 3% 6%; }
-    /* line 272, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 285, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     .homeBodyMasterContainer .homeBodyContainer .homeBodyContent h3 {
       font-size: 1.5em; }
-  /* line 282, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 295, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   .homeBodyMasterContainer .homeBodyImageContainer {
     margin-top: 4%; }
-    /* line 285, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 298, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     .homeBodyMasterContainer .homeBodyImageContainer img {
       width: 100%; }
 
-/* line 292, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 305, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .backgroundSection {
   background-color: #f9f9fa;
   border-top: 1px solid grey; }
 
-/* line 297, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 310, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .subBodyHeadContainer {
   text-align: center;
   margin-top: 2%; }
-  /* line 301, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 314, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   .subBodyHeadContainer h2 {
     font-size: 1.8em; }
     @media (min-width: 992px) {
-      /* line 301, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+      /* line 314, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
       .subBodyHeadContainer h2 {
         font-size: 2.1em; } }
-  /* line 309, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 322, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   .subBodyHeadContainer .subHeadSubBody {
     color: grey;
     font-size: 1.2em;
     width: 75%;
     margin: 3% auto; }
     @media (min-width: 992px) {
-      /* line 309, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+      /* line 322, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
       .subBodyHeadContainer .subHeadSubBody {
         font-size: 1.6em; } }
 
-/* line 324, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 337, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .subParagraphContainer .subParagraph {
   padding: 3% 6%; }
   @media (min-width: 992px) {
-    /* line 324, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 337, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     .subParagraphContainer .subParagraph {
       padding: 3% 15%; } }
 
-/* line 334, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 347, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 #subVideoHomeText {
   margin-top: 10%;
   margin-bottom: 2%;
   text-align: center;
   color: grey; }
-  /* line 341, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 354, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   #subVideoHomeText p {
     font-size: 1.5em; }
     @media (min-width: 992px) {
-      /* line 341, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+      /* line 354, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
       #subVideoHomeText p {
         font-size: 2.2em; } }
 
-/* line 350, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 363, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .partnerLogos {
   margin: 4% 0px;
   text-align: center; }
-  /* line 355, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 368, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   .partnerLogos img {
     width: 180px;
     height: 75px;
     margin: auto; }
     @media (min-width: 992px) {
-      /* line 355, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+      /* line 368, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
       .partnerLogos img {
         width: 100%;
         height: 100px; } }
 
-/* line 368, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 381, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .topFooterContainer {
   background-color: #323A45;
   margin-top: 3%;
   padding: 10% 5%; }
   @media (min-width: 992px) {
-    /* line 368, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 381, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     .topFooterContainer {
       padding: 5%; } }
-  /* line 377, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 390, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   .topFooterContainer .topFooterHeading {
     text-align: center;
     color: grey;
     margin-bottom: 10%; }
     @media (min-width: 992px) {
-      /* line 377, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+      /* line 390, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
       .topFooterContainer .topFooterHeading {
         margin-bottom: 5%; } }
-    /* line 385, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 398, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     .topFooterContainer .topFooterHeading p {
       font-size: 1.2em; }
       @media (min-width: 992px) {
-        /* line 385, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+        /* line 398, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
         .topFooterContainer .topFooterHeading p {
           font-size: 2em; } }
-  /* line 395, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 408, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   .topFooterContainer .topFooterButton {
     background-color: #6da92b;
     border: none;
     color: white; }
 
-/* line 402, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 415, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 textarea, input {
   padding: 30px;
   font-family: FontAwesome, "Open Sans", Verdana; }
 
-/* line 407, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 420, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .fa-cog {
   color: grey; }
 
-/* line 411, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 424, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .socialMediaButtonsContainer {
   text-align: center;
   padding: 5%;
   border-bottom: 1px solid grey; }
   @media (min-width: 992px) {
-    /* line 411, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 424, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     .socialMediaButtonsContainer {
       margin-bottom: 5%; } }
-  /* line 420, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 433, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   .socialMediaButtonsContainer .socialMediaButton {
     margin: 5%; }
     @media (min-width: 992px) {
-      /* line 420, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+      /* line 433, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
       .socialMediaButtonsContainer .socialMediaButton {
         margin: 0px; } }
 
-/* line 448, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 461, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .footerListContainer {
   text-align: center;
   color: grey; }
-  /* line 452, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 465, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   .footerListContainer .footerHeading {
     color: #777777;
     margin: 15% 0px;
     font-size: 1.2em; }
     @media (min-width: 992px) {
-      /* line 452, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+      /* line 465, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
       .footerListContainer .footerHeading {
         margin: 0px;
         margin-bottom: 10%;
         font-size: 1.3em; } }
-  /* line 465, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 478, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   .footerListContainer .ulNoPad {
     padding: 0 !important; }
-  /* line 469, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 482, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   .footerListContainer #newsFooter {
     text-align: left;
     padding-right: 9%; }
-  /* line 474, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  /* line 487, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
   .footerListContainer .bold {
     color: black;
     font-weight: 700; }
 
-/* line 481, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 494, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 ul li {
   list-style: none;
   margin-bottom: 5px; }
 
-/* line 486, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+/* line 499, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .copyRight {
   margin: 5%;
   font-size: .8em;
   text-align: center; }
   @media (min-width: 992px) {
-    /* line 486, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    /* line 499, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
     .copyRight {
       margin: 2%;
       font-size: 1em; } }

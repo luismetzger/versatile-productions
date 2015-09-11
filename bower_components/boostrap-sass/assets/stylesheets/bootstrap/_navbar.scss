@@ -532,12 +532,13 @@
 .navbar-inverse {
   background-color: $navbar-inverse-bg;
   border-color: $navbar-inverse-border;
-  background-color: white;
-  border-color: white;
+    @media (min-width: $screen-md) {
+      background: transparent;
+      border-color: transparent;
+      top: 6%;
+      right: 10%;
+    }
 
-  position: absolute;
-  top: 10%;
-  right: 10%;
 
   .navbar-brand {
     color: $navbar-inverse-brand-color;
@@ -555,6 +556,12 @@
   .navbar-nav {
     > li > a {
       color: $navbar-inverse-link-color;
+
+      @media (min-width: $screen-md) {
+        color: white;
+        font-size: 1.2em;
+
+      }
 
       &:hover,
       &:focus {
@@ -603,7 +610,7 @@
       &,
       &:hover,
       &:focus {
-        background-color: $navbar-inverse-link-active-bg;
+        // background-color: $navbar-inverse-link-active-bg;
         color: $navbar-inverse-link-active-color;
       }
     }
