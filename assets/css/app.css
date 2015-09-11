@@ -5709,6 +5709,65 @@ header {
 .subheader-gray {
   color: #9A9A9A; }
 
+.btn-green {
+  color: #fff;
+  background-color: #6DA92B;
+  border-color: #6DA92B; }
+  .btn-green:focus,
+  .btn-green.focus {
+    color: #fff;
+    background-color: #538021;
+    border-color: #2b4311; }
+  .btn-green:hover {
+    color: #fff;
+    background-color: #538021;
+    border-color: #4e781f; }
+  .btn-green:active,
+  .btn-green.active,
+  .open > .btn-green.dropdown-toggle {
+    color: #fff;
+    background-color: #538021;
+    border-color: #4e781f; }
+    .btn-green:active:hover,
+    .btn-green:active:focus,
+    .btn-green:active.focus,
+    .btn-green.active:hover,
+    .btn-green.active:focus,
+    .btn-green.active.focus,
+    .open > .btn-green.dropdown-toggle:hover,
+    .open > .btn-green.dropdown-toggle:focus,
+    .open > .btn-green.dropdown-toggle.focus {
+      color: #fff;
+      background-color: #406419;
+      border-color: #2b4311; }
+  .btn-green:active,
+  .btn-green.active,
+  .open > .btn-green.dropdown-toggle {
+    background-image: none; }
+  .btn-green.disabled,
+  .btn-green.disabled:hover,
+  .btn-green.disabled:focus,
+  .btn-green.disabled.focus,
+  .btn-green.disabled:active,
+  .btn-green.disabled.active,
+  .btn-green[disabled],
+  .btn-green[disabled]:hover,
+  .btn-green[disabled]:focus,
+  .btn-green[disabled].focus,
+  .btn-green[disabled]:active,
+  .btn-green[disabled].active,
+  fieldset[disabled] .btn-green,
+  fieldset[disabled] .btn-green:hover,
+  fieldset[disabled] .btn-green:focus,
+  fieldset[disabled] .btn-green.focus,
+  fieldset[disabled] .btn-green:active,
+  fieldset[disabled] .btn-green.active {
+    background-color: #6DA92B;
+    border-color: #6DA92B; }
+  .btn-green .badge {
+    color: #6DA92B;
+    background-color: #fff; }
+
 .text-section {
   padding: 50px 0;
   border-bottom: 1px solid #999; }
@@ -5717,9 +5776,34 @@ header {
 
 .partner-icon {
   position: relative;
-  height: 100px; }
+  height: 100px;
+  margin-top: 50px; }
   .partner-icon div {
     position: absolute;
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%); }
+
+.contact-section {
+  padding: 70px 0 120px;
+  background-color: #323A45; }
+  .contact-section h2 {
+    color: #939DA5;
+    font-weight: normal;
+    margin-bottom: 65px; }
+  .contact-section .form-control {
+    height: 45px;
+    padding-left: 40px;
+    font-size: 16px; }
+  .contact-section .name-field {
+    background-image: url("../images/user.png");
+    background-position: left center;
+    background-repeat: no-repeat; }
+  .contact-section .email-field {
+    background-image: url("../images/mail.png");
+    background-position: 0 8px;
+    background-repeat: no-repeat; }
+  .contact-section .tel-field {
+    background-image: url("../images/lock.png");
+    background-position: left center;
+    background-repeat: no-repeat; }

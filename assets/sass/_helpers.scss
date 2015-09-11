@@ -49,3 +49,7 @@
 .subheader-gray {
   color: #9A9A9A;
 }
+
+.btn-green {
+  @include button-variant(#fff, #6DA92B, #6DA92B)
+}
