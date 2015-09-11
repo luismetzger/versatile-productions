@@ -229,7 +229,7 @@ body.slide-active {
   width: 100%;
   margin: auto;
   padding-bottom: 4%;
-  border-bottom: 1px solid grey;
+
 
 
   .homeBodyContainer{
@@ -257,6 +257,11 @@ body.slide-active {
     }
   }
 
+}
+
+.backgroundSection{
+  background-color: #f9f9fa;
+  border-top: 1px solid grey;
 }
 
 .subBodyHeadContainer{
