@@ -336,6 +336,11 @@ body.slide-active {
       width: 40%;
       float: right;
       margin-right: 10%;
+
+    @media (min-width: $screen-md) {
+        font-size: 3em;
+      }
+
     }
     h3{
       font-size: .7em;
@@ -344,6 +349,11 @@ body.slide-active {
       width: 42%;
       float: right;
       margin-right: 10%;
+
+      @media (min-width: $screen-md) {
+        font-size: 1.8em;
+      }
+
     }
 
     i{
@@ -353,6 +363,10 @@ body.slide-active {
       width: 42%;
       float: right;
       margin-right: 10%;
+
+      @media (min-width: $screen-md) {
+        font-size: 7em;
+      }
     }
 
   }
