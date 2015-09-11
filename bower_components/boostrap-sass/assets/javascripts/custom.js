@@ -64,7 +64,6 @@ addSourceToVideo('http://cdn.davecampion.com/timelapse-demo/poster.png','http://
 
 function addSourceToVideo(poster, source, movieType) {
 
-  console.log('clic');
     var videoContainer = $('.videoContainer');
 
    $('#video').remove();
