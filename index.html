@@ -6,8 +6,74 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/css/app.css"/>
     <title>Versatile</title>
+    <link href="http://vjs.zencdn.net/4.11/video-js.css" rel="stylesheet">
+    <script src="http://vjs.zencdn.net/4.11/video.js"></script>
 </head>
 <body>
-    Test
+
+
+<header>
+    <div class="big-video-wrap">
+        <div
+                class="video-wrapper video-js vjs-default-skin vjs-controls-disabled vjs-has-started vjs-user-inactive vjs-playing"
+                >
+            <video loop preload="auto" data-setup="{}"
+                   webkit-playsinline=""
+                   autoplay=""
+                   width="auto"
+                   height="auto"
+                   src="https://s3.amazonaws.com/www-assets.invisionapp.com/Homepage/enterprise-loop.mp4"></video>
+        </div>
+
+        <nav class="navbar navbar-default hidden-xs">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">FAQ <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="tel:1212312" class="btn btn-default-outlined">555-555-5555</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <div class="row header-text-block">
+            <div class="col-md-8 col-md-offset-2">
+                <h2 class="text-center">Welcome </h2>
+
+                <h3 class="text-center">Versatile Productions is a full service video production company offering live streaming
+                    for TV, film & social media.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a href="#" class="btn btn-default-outlined header-btn">Get Started</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 </body>
 </html>

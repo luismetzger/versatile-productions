@@ -1,0 +1,10 @@
+.btn-default-outlined {
+  border-radius: 20px;
+  @include button-variant(#fff, transparent, #fff);
+
+  &:hover {
+    background-color: #fff!important;
+    color: #000!important;
+  }
+
+}
