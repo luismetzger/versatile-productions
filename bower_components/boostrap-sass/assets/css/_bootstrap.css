@@ -7786,4 +7786,64 @@ textarea, input {
 /* line 372, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
 .fa-cog {
   color: grey; }
+
+/* line 376, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+.socialMediaButtonsContainer {
+  text-align: center;
+  padding: 5%;
+  border-bottom: 1px solid grey; }
+  @media (min-width: 992px) {
+    /* line 376, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    .socialMediaButtonsContainer {
+      margin-bottom: 5%; } }
+  /* line 385, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  .socialMediaButtonsContainer .socialMediaButton {
+    margin: 5%; }
+    @media (min-width: 992px) {
+      /* line 385, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+      .socialMediaButtonsContainer .socialMediaButton {
+        margin: 0px; } }
+
+/* line 413, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+.footerListContainer {
+  text-align: center;
+  color: grey; }
+  /* line 417, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  .footerListContainer .footerHeading {
+    color: #777777;
+    margin: 15% 0px;
+    font-size: 1.2em; }
+    @media (min-width: 992px) {
+      /* line 417, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+      .footerListContainer .footerHeading {
+        margin: 0px;
+        margin-bottom: 10%;
+        font-size: 1.3em; } }
+  /* line 430, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  .footerListContainer .ulNoPad {
+    padding: 0 !important; }
+  /* line 434, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  .footerListContainer #newsFooter {
+    text-align: left;
+    padding-right: 9%; }
+  /* line 439, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+  .footerListContainer .bold {
+    color: black;
+    font-weight: 700; }
+
+/* line 446, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+ul li {
+  list-style: none;
+  margin-bottom: 5px; }
+
+/* line 451, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+.copyRight {
+  margin: 5%;
+  font-size: .8em;
+  text-align: center; }
+  @media (min-width: 992px) {
+    /* line 451, /Users/judah/Desktop/Freelance/versatile-productions/versatile-productions/bower_components/boostrap-sass/assets/stylesheets/_home.scss */
+    .copyRight {
+      margin: 2%;
+      font-size: 1em; } }
 /*# sourceMappingURL=_bootstrap.css.map */

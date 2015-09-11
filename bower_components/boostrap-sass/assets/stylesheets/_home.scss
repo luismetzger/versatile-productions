@@ -372,3 +372,88 @@ textarea, input {
 .fa-cog {
   color: grey;
 }
+
+.socialMediaButtonsContainer{
+  text-align: center;
+  padding: 5%;
+  border-bottom: 1px solid grey;
+
+    @media (min-width: $screen-md) {
+      margin-bottom: 5%;
+    }
+
+  .socialMediaButton{
+    margin: 5%;
+
+      @media (min-width: $screen-md) {
+        margin: 0px;
+      }
+
+    .socialMediaImg{
+
+    }
+
+
+  }
+
+  #youtube{
+
+  }
+  #twitter{
+
+  }
+  #google{
+
+  }
+  #linkedin{
+
+  }
+}
+
+.footerListContainer{
+  text-align: center;
+  color: grey;
+
+  .footerHeading{
+    color: #777777;
+    margin: 15% 0px;
+    font-size: 1.2em;
+      @media (min-width: $screen-md) {
+        margin: 0px;
+        margin-bottom: 10%;
+        font-size: 1.3em;
+      }
+
+
+
+  }
+  .ulNoPad{
+    padding: 0 !important;
+  }
+
+  #newsFooter{
+    text-align: left;
+    padding-right: 9%;
+  }
+
+  .bold{
+    color: black;
+    font-weight: 700;
+  }
+
+}
+
+ul li{
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.copyRight{
+  margin: 5%;
+  font-size: .8em;
+  text-align: center;
+    @media (min-width: $screen-md) {
+      margin: 2%;
+      font-size: 1em;
+    }
+}
