@@ -53,3 +53,19 @@
 .btn-green {
   @include button-variant(#fff, #6DA92B, #6DA92B)
 }
+
+.btn-red {
+  @include button-variant(#fff, #E52d27, #E52d27)
+}
+
+.btn-blue {
+  @include button-variant(#fff, #55acee, #55acee)
+}
+
+.btn-orange {
+  @include button-variant(#fff, #dd4b39, #dd4b39)
+}
+
+.btn-dark-blue {
+  @include button-variant(#fff, #0976b4, #0976b4)
+}

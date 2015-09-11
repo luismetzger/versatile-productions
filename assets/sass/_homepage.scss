@@ -10,7 +10,7 @@
 .partner-icon {
   position: relative;
   height: 100px;
-  margin-top: 50px;
+  margin: 50px 0;
 
   div {
     position: absolute;
@@ -55,4 +55,8 @@
     background-repeat: no-repeat;
   }
 
+}
+
+.socials-section {
+  padding: 50px 0;
 }
