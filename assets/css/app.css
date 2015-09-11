@@ -5614,9 +5614,13 @@ header {
       margin-bottom: 30px; } }
 
 .header-fullscreen-video {
-  display: none; }
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s all ease;
+  z-index: -1; }
   .header-fullscreen-video.header-fullscreen-video-open {
-    display: block;
+    visibility: visible;
+    opacity: 1;
     position: fixed;
     top: 0;
     bottom: 0;
