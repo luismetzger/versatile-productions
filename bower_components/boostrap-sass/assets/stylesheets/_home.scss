@@ -162,10 +162,10 @@ body.slide-active {
     width: 80%;
   }
 
-  .phoneNumber{
+  #navPhone{
     border: 1px solid white;
-    padding: 3%;
     border-radius: 25px;
+    color: white;
 
   }
 }
@@ -183,6 +183,11 @@ body.slide-active {
   background-size: cover;
   text-align: center;
   color: $white;
+  @media (min-width: $screen-md) {
+    height: 600px;
+    padding-top: 5%;
+   }
+
 }
 
 .topContainer{
@@ -192,6 +197,7 @@ body.slide-active {
   @media (min-width: $screen-md) {
     height: 565px;
     padding: 7%;
+
    }
 
   .headTxt{
