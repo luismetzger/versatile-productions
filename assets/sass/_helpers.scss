@@ -2,24 +2,13 @@
   margin-top: 0;
 }
 
-.btn-default-outlined {
-  border-radius: 20px;
-  @include button-variant(#fff, transparent, #fff);
-
-  &:hover {
-    background-color: #fff!important;
-    color: #000!important;
-  }
-
-}
-
 .section-header {
   color: $brand-gray;
   display: inline-block;
+  font-size: 3em;
 
   &.section-header-underlined {
     position: relative;
-    font-size: 2.5em;
 
     &:after {
       content: '';
@@ -48,6 +37,18 @@
 
 .subheader-gray {
   color: #9A9A9A;
+}
+
+//Buttons
+.btn-default-outlined {
+  border-radius: 20px;
+  @include button-variant(#fff, transparent, #fff);
+
+  &:hover {
+    background-color: #fff !important;
+    color: #000 !important;
+  }
+
 }
 
 .btn-green {

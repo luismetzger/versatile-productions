@@ -9,7 +9,7 @@ header {
 }
 
 .big-video-wrap {
-  height: 90vh;
+  height: 700px;
   overflow: hidden;
   position: relative;
   background-color: transparentize(#000, .5);
@@ -32,6 +32,11 @@ header {
     }
 
   }
+
+  @media screen and (max-width: $screen-xs-max) {
+    height: 100vh;
+    min-height: 450px;
+  }
 }
 
 .navbar {
@@ -48,12 +53,32 @@ header {
     font-weight: 300;
     margin-bottom: 50px;
   }
+
+  @media screen and (max-width: $screen-xs-max) {
+    h2 {
+      font-size: 4em;
+    }
+    h3 {
+      font-size: 1.5em;
+      padding: 0 15px;
+    }
+  }
+
+  @media screen and (max-height: 600px) {
+    h2 {
+      margin-top: 15px;
+    }
+  }
 }
 
 .header-btn {
   font-size: 1.5em;
   padding: 10px 50px;
   margin-bottom: 50px;
+
+  @media screen and (max-height: 600px) {
+    margin-bottom: 30px;
+  }
 }
 
 .header-fullscreen-video {

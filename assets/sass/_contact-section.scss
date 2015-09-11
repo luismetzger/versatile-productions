@@ -1,0 +1,35 @@
+.contact-section {
+  padding: 70px 0 120px;
+  background-color: $brand-dark-blue;
+
+  h2 {
+    color: #939DA5;
+    font-weight: normal;
+    margin-bottom: 65px;
+  }
+
+  .form-control {
+    height: 45px;
+    padding-left: 40px;
+    font-size: 16px;
+  }
+
+  .name-field {
+    background-image: url("../images/user.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+  }
+
+  .email-field {
+    background-image: url("../images/mail.png");
+    background-position: 0 8px;
+    background-repeat: no-repeat;
+  }
+
+  .tel-field {
+    background-image: url("../images/lock.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+  }
+
+}
