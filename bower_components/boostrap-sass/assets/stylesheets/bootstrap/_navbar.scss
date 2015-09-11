@@ -264,8 +264,9 @@
 
   // Uncollapse the nav
   @media (min-width: $grid-float-breakpoint) {
-    float: left;
+    float: right;
     margin: 0;
+
 
     > li {
       float: left;
@@ -531,6 +532,12 @@
 .navbar-inverse {
   background-color: $navbar-inverse-bg;
   border-color: $navbar-inverse-border;
+  background-color: white;
+  border-color: white;
+
+  position: absolute;
+  top: 10%;
+  right: 10%;
 
   .navbar-brand {
     color: $navbar-inverse-brand-color;

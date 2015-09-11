@@ -146,7 +146,7 @@ body.slide-active {
 
 @media (min-width: $screen-md) {
   .mobileNav{
-    display: none;
+    // display: none;
   }
   .webNav{
     display: inline;
@@ -161,10 +161,7 @@ body.slide-active {
 
 
 
-
-
 #topSectionA{
-
   background: linear-gradient(
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.45)
@@ -173,6 +170,11 @@ body.slide-active {
   background-size: cover;
   text-align: center;
   color: $white;
+}
+
+.topContainer{
+
+
 
   @media (min-width: $screen-md) {
     height: 565px;
@@ -368,10 +370,18 @@ body.slide-active {
   margin-top: 3%;
   padding: 10% 5%;
 
+    @media (min-width: $screen-md) {
+      padding: 5%;
+    }
+
   .topFooterHeading{
     text-align: center;
     color: grey;
     margin-bottom: 10%;
+    @media (min-width: $screen-md) {
+      margin-bottom: 5%;
+    }
+
     p{
       font-size: 1.2em;
       @media (min-width: $screen-md) {
