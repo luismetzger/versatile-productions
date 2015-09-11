@@ -15,14 +15,18 @@
 <header>
     <div class="big-video-wrap">
         <div
-                class="video-wrapper video-js vjs-default-skin vjs-controls-disabled vjs-has-started vjs-user-inactive vjs-playing"
+                class="video-js vjs-default-skin vjs-controls-disabled vjs-has-started vjs-user-inactive vjs-playing"
                 >
-            <video loop preload="auto" data-setup="{}"
-                   webkit-playsinline=""
-                   autoplay=""
-                   width="auto"
-                   height="auto"
-                   src="https://s3.amazonaws.com/www-assets.invisionapp.com/Homepage/enterprise-loop.mp4"></video>
+            <video
+                    id="header-video"
+                    loop preload="auto" data-setup="{}"
+                    webkit-playsinline=""
+                    autoplay=""
+                    width="auto"
+                    height="auto"
+                    src="https://s3.amazonaws.com/www-assets.invisionapp.com/Homepage/enterprise-loop.mp4"></video>
+            <!-- video with sound-->
+            <!-- https://pdlvimeocdn-a.akamaihd.net/06822/722/335982760.mp4?token2=1442008378_821f4613c9818cff2cfee7be4a3dd075&aksessionid=5da2aff3e7478314-->
         </div>
 
         <nav class="navbar navbar-default hidden-xs">
@@ -61,7 +65,8 @@
             <div class="col-md-8 col-md-offset-2">
                 <h2 class="text-center">Welcome </h2>
 
-                <h3 class="text-center">Versatile Productions is a full service video production company offering live streaming
+                <h3 class="text-center">Versatile Productions is a full service video production company offering live
+                    streaming
                     for TV, film & social media.</h3>
             </div>
         </div>
@@ -70,10 +75,24 @@
                 <a href="#" class="btn btn-default-outlined header-btn">Get Started</a>
             </div>
         </div>
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <a href="#" id="header-fullscreen-video-toggle"><i class="fa fa-play-circle fa-4x"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-fullscreen-video">
+        <iframe id="header-player" src="https://player.vimeo.com/video/118640180?api=1&amp;player_id=ad" width="100%" height="100%"
+                frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+        <a href="#" id="header-fullscreen-video-close"><i class="fa fa-times fa-2x"></i></a>
     </div>
 </header>
 
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+<script src="https://f.vimeocdn.com/js/froogaloop2.min.js"></script>
 </body>
 </html>

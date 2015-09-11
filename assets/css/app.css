@@ -5553,6 +5553,8 @@ a {
 
 header {
   color: #fff; }
+  header .fa-play-circle {
+    color: #fff; }
 
 .big-video-wrap {
   height: 90vh;
@@ -5587,7 +5589,27 @@ header {
 
 .header-btn {
   font-size: 1.5em;
-  padding: 10px 50px; }
+  padding: 10px 50px;
+  margin-bottom: 50px; }
+
+.header-fullscreen-video {
+  display: none; }
+  .header-fullscreen-video.header-fullscreen-video-open {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; }
+
+#header-fullscreen-video-close {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  z-index: 123;
+  color: rgba(255, 255, 255, 0.5); }
+  #header-fullscreen-video-close:hover {
+    color: #fff; }
 
 .btn-default-outlined {
   border-radius: 20px;
