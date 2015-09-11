@@ -56,10 +56,5 @@ $(document).ready(function () {
             $(selected).removeClass('slide-active');
         }
 
-
     });
-
-
-
-
 });

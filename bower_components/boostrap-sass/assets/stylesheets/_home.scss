@@ -138,6 +138,31 @@ body.slide-active {
 }
 
 
+
+// CSS for the Nav bar
+.webNav{
+  display: none;
+}
+
+@media (min-width: $screen-md) {
+  .mobileNav{
+    display: none;
+  }
+  .webNav{
+    display: inline;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 80%;
+  }
+}
+
+
+
+
+
+
+
 #topSectionA{
 
   background: linear-gradient(
