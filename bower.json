@@ -1,0 +1,19 @@
+{
+  "name": "versatile",
+  "version": "0.0.0",
+  "authors": [
+    "Eugene <malinin13@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "font-awesome": "~4.4.0"
+  }
+}

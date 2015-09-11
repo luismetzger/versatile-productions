@@ -1,1 +1,0 @@
-var mobileNav=$(".mobileNav"),webNav=$(".webNav");window.onload=function(){var o=window.outerWidth;922>o?(webNav.hide(),console.log("loaded",window.outerWidth)):(webNav.show(),mobileNav.hide(),console.log("hide"))};
