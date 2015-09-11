@@ -140,7 +140,10 @@ body.slide-active {
 
 #topSectionA{
 
-  background-image: $snowMountainForestWinter;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ), $snowMountainForestWinter;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -298,4 +301,74 @@ body.slide-active {
       padding: 3% 15%;
     }
   }
+}
+
+
+#subVideoHomeText{
+  margin-top: 10%;
+  margin-bottom: 2%;
+  text-align: center;
+  color: grey;
+
+
+  p{
+    font-size: 1.5em;
+
+    @media (min-width: $screen-md) {
+      font-size: 2.2em;
+    }
+  }
+}
+
+.partnerLogos{
+  margin: 4% 0px;
+  text-align: center;
+
+
+  img{
+    width: 180px;
+    height: 75px;
+    margin: auto;
+
+    @media (min-width: $screen-md) {
+      width: 100%;
+      height: 100px;
+    }
+  }
+}
+
+
+.topFooterContainer{
+  background-color: #323A45;
+  margin-top: 3%;
+  padding: 10% 5%;
+
+  .topFooterHeading{
+    text-align: center;
+    color: grey;
+    margin-bottom: 10%;
+    p{
+      font-size: 1.2em;
+      @media (min-width: $screen-md) {
+        font-size: 2em;
+      }
+    }
+
+  }
+
+
+  .topFooterButton{
+    background-color: #6da92b;
+    border: none;
+    color: white;
+  }
+}
+
+textarea, input {
+  padding:30px;
+  font-family: FontAwesome, "Open Sans", Verdana,
+}
+
+.fa-cog {
+  color: grey;
 }
