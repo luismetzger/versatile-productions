@@ -2500,6 +2500,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/images\/drake.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23814,
+		"inputAbbreviatedPath": "\/images\/drake.png",
+		"outputAbbreviatedPath": "\/images\/drake.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/google-plus.png": {
 		"fileType": 32768,
 		"ignore": 0,

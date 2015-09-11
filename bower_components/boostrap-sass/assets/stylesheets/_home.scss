@@ -183,6 +183,7 @@ body.slide-active {
   background-size: cover;
   text-align: center;
   color: $white;
+  width: 104%;
   @media (min-width: $screen-md) {
     height: 600px;
     padding-top: 5%;
@@ -311,6 +312,50 @@ body.slide-active {
 .backgroundSection{
   background-color: #f9f9fa;
   border-top: 1px solid grey;
+  padding-bottom: 2%;
+}
+
+.videoContainer{
+
+
+  #video{
+    width: 100%;
+  }
+
+  .videoOverlay{
+    width: 100%;
+    position: absolute;
+    font-size: .8em;
+    padding-top: 10%;
+
+    h1{
+    // background: rgba(0,0,0,0.3);
+      font-size: .7em;
+      color: white;
+      text-align: center;
+      width: 40%;
+      float: right;
+      margin-right: 10%;
+    }
+    h3{
+      font-size: .7em;
+      color: grey;
+      text-align: center;
+      width: 42%;
+      float: right;
+      margin-right: 10%;
+    }
+
+    i{
+      font-size: 3em;
+      color: grey;
+      text-align: center;
+      width: 42%;
+      float: right;
+      margin-right: 10%;
+    }
+
+  }
 }
 
 .subBodyHeadContainer{
@@ -510,4 +555,12 @@ ul li{
       margin: 2%;
       font-size: 1em;
     }
+}
+
+
+.videoButtonsContainer{
+  margin-top: 2%;
+  .nextVideo{
+    width: 45%;
+  }
 }
