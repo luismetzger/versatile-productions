@@ -5552,7 +5552,8 @@ a {
   transition: .3s all linear; }
 
 header {
-  color: #fff; }
+  color: #fff;
+  font-family: "brandon-grotesque", sans-serif; }
   header .fa-play-circle {
     color: #fff; }
 
