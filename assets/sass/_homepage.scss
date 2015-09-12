@@ -108,8 +108,10 @@
 }
 
 .quotes-carousel-controls {
-  margin-top: -40px;
+  transform: translateY(-40px);
   transition: .3s all ease;
+  position: relative;
+  z-index: 2;
 
   .quotes-carousel-controls-item {
     position: relative;
@@ -161,6 +163,6 @@
   }
 
   &.video-open {
-    margin-top: 20px;
+    transform: translateY(20px);
   }
 }
