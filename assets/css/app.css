@@ -1,7 +1,9 @@
 @charset "UTF-8";
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+@import url(../../bower_components/animate.css/animate.min.css);
 @import url(../css/sprite.css);
+@import url(../css/owl.carousel.css);
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -6047,6 +6049,56 @@ header {
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%); }
+
+.quotes-carousel-item {
+  position: relative; }
+  .quotes-carousel-item .quotes-carousel-controls-item-video-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 3;
+    color: #fff; }
+  .quotes-carousel-item .quote-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden; }
+  .quotes-carousel-item.video-open .quote-video, .quotes-carousel-item.video-open .quotes-carousel-controls-item-video-close {
+    opacity: 1;
+    visibility: visible; }
+
+.quotes-carousel-controls {
+  margin-top: -40px; }
+  .quotes-carousel-controls .quotes-carousel-controls-item {
+    position: relative;
+    margin: 0 15px;
+    z-index: 3;
+    display: inline-block;
+    transition: .3s all ease; }
+    .quotes-carousel-controls .quotes-carousel-controls-item * {
+      transition: .3s all ease; }
+    .quotes-carousel-controls .quotes-carousel-controls-item .quotes-carousel-controls-item-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, 0.5); }
+    .quotes-carousel-controls .quotes-carousel-controls-item img {
+      border: 2px solid #fff; }
+    .quotes-carousel-controls .quotes-carousel-controls-item .fa {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff; }
+    .quotes-carousel-controls .quotes-carousel-controls-item:hover .fa, .quotes-carousel-controls .quotes-carousel-controls-item:hover .quotes-carousel-controls-item-overlay, .quotes-carousel-controls .quotes-carousel-controls-item.active .fa, .quotes-carousel-controls .quotes-carousel-controls-item.active .quotes-carousel-controls-item-overlay {
+      opacity: 0;
+      visibility: hidden; }
+    .quotes-carousel-controls .quotes-carousel-controls-item.active {
+      transform: scale(1.3); }
 
 .socials-section {
   padding: 50px 0; }
