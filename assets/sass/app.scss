@@ -21,7 +21,7 @@
 //@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/dropdowns";
 //@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/button-groups";
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/input-groups";
+//@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/input-groups";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navs";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/navbar";
 //@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/breadcrumbs";
@@ -43,7 +43,7 @@
 // Components w/ JavaScript
 //@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/modals";
 //@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/tooltip";
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/popovers";
+//@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/popovers";
 //@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/carousel";
 
 // Utility classes
@@ -53,6 +53,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
 @import "../../bower_components/font-awesome/scss/font-awesome";
 @import "../../bower_components/animate.css/animate.min.css";
+@import url(http://vjs.zencdn.net/4.11/video-js.css);
 
 body {
   font-size: 16px;
