@@ -32,13 +32,40 @@
 
 .quotes-carousel-item {
   position: relative;
+  height: 600px;
+  background-size: cover!important;
+  background-position: center center;
+  width: 100%;
+  color: #fff;
+  padding-top: 100px;
+
+  .quotes-carousel-item-text {
+
+    h2 {
+      font: 300 35px/52px $font-family-open-sans;
+    }
+
+    h4 {
+      //font-weight: normal;
+      margin: 50px 0;
+      font: normal 500 1.2em $font-family-brandon-grotesque;
+      text-transform: uppercase;
+      color: #b2bcc4;
+    }
+
+  }
+
+  .quotes-carousel-item-video-toggle, .quotes-carousel-controls-item-video-close {
+    color: #fff;
+  }
 
   .quotes-carousel-controls-item-video-close {
     position: absolute;
     top: 15px;
     right: 15px;
     z-index: 3;
-    color: #fff;
+    opacity: 0;
+    visibility: hidden;
   }
 
   .quote-video {
@@ -49,6 +76,7 @@
     height: 100%;
     opacity: 0;
     visibility: hidden;
+    transition: .3s all ease;
   }
 
   &.video-open {
@@ -62,10 +90,13 @@
 
 }
 
-
+.quotes-carousel-wrapper {
+  margin-bottom: 80px;
+}
 
 .quotes-carousel-controls {
   margin-top: -40px;
+  transition: .3s all ease;
 
   .quotes-carousel-controls-item {
     position: relative;
@@ -112,4 +143,7 @@
 
   }
 
+  &.video-open {
+    margin-top: 20px;
+  }
 }

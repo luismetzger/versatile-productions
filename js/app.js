@@ -25,9 +25,9 @@ $(document).ready(function () {
 
     var quotesCarousel = $('.quotes-carousel');
     var quotesCarouselItem = $('.quotes-carousel-item');
-    var quotesCarouselItemVideo = quotesCarouselItem.find('iframe')[0];
 
-    var carouselControlItem = $('.quotes-carousel-controls-item');
+    var carouselControls = $('.quotes-carousel-controls');
+    var carouselControlsItem = $('.quotes-carousel-controls-item');
 
     var carouselItemVideoToggle = $('.quotes-carousel-item-video-toggle');
     var carouselItemVideoClose = $('.quotes-carousel-controls-item-video-close');
@@ -46,21 +46,29 @@ $(document).ready(function () {
             quotesCarouselVideoIsPlaying ? carouselCloseVideos() : '';
         });
 
-    carouselControlItem.click(function () {
+    carouselControlsItem.click(function () {
         quotesCarousel.trigger('to.owl.carousel', $(this).attr("data-slide"))
     });
 
 
     function makeCarouselControlActive(index) {
-        carouselControlItem.removeClass('active');
-        carouselControlItem.eq(index).addClass('active')
+        carouselControlsItem.removeClass('active');
+        carouselControlsItem.eq(index).addClass('active')
     }
 
     function carouselCloseVideos() {
-        console.log('CLOSED ALL')
         quotesCarouselVideoIsPlaying = false;
+        $f($('.video-open').find('iframe')[0]).api('unload');
         quotesCarouselItem.removeClass('video-open');
-        $f(quotesCarouselItemVideo).api('unload')
+        controlsInactiveVideoClose()
+    }
+
+    function controlsActiveVideoPlaying() {
+        carouselControls.addClass('video-open')
+    }
+
+    function controlsInactiveVideoClose() {
+        carouselControls.removeClass('video-open')
     }
 
     carouselItemVideoToggle.click(function (e) {
@@ -70,6 +78,7 @@ $(document).ready(function () {
         thisGrandparent.toggleClass('video-open');
         $f(thisParent.next()[0]).api('play');
         quotesCarouselVideoIsPlaying = true;
+        controlsActiveVideoPlaying()
     });
 
     carouselItemVideoClose.click(function (e) {
@@ -78,6 +87,7 @@ $(document).ready(function () {
         thisParent.toggleClass('video-open');
         $f(thisParent.find('iframe')[0]).api('unload');
         quotesCarouselVideoIsPlaying = false;
+        controlsInactiveVideoClose()
     })
 
 });

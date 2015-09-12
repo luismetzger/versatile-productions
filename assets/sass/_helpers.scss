@@ -39,6 +39,18 @@
   color: #9A9A9A;
 }
 
+.video-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 3;
+  color: transparentize(#fff, .5);
+
+  &:hover {
+    color: #fff;
+  }
+}
+
 //Buttons
 .btn-default-outlined {
   border-radius: 20px;

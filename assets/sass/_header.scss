@@ -98,15 +98,3 @@ header {
     height: 100%;
   }
 }
-
-#header-fullscreen-video-close {
-  position: fixed;
-  top: 15px;
-  right: 15px;
-  z-index: 3;
-  color: transparentize(#fff, .5);
-
-  &:hover {
-    color: #fff;
-  }
-}
