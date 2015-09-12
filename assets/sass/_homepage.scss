@@ -22,11 +22,23 @@
   height: 100px;
   margin: 50px 0;
 
+  @media screen and (max-width: $screen-xs-max) {
+    text-align: center;
+  }
+
   div {
     position: absolute;
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    @media screen and (max-width: $screen-xs-max) {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+      display: inline-block;
+    }
   }
 }
 
@@ -37,12 +49,17 @@
   background-position: center center;
   width: 100%;
   color: #fff;
-  padding-top: 100px;
+  padding-top: 30px;
+
+  @media screen and (min-width: $screen-sm-min) {
+    padding-top: 100px;
+  }
 
   .quotes-carousel-item-text {
 
     h2 {
       font: 300 35px/52px $font-family-open-sans;
+      margin-top: 0;
     }
 
     h4 {
@@ -60,10 +77,6 @@
   }
 
   .quotes-carousel-controls-item-video-close {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    z-index: 3;
     opacity: 0;
     visibility: hidden;
   }
@@ -104,6 +117,10 @@
     z-index: 3;
     display: inline-block;
     transition: .3s all ease;
+
+    @media screen and (max-width: $screen-xs-max) {
+      margin: 0 10px;
+    }
 
     * {
       transition: .3s all ease;

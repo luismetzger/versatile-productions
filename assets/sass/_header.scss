@@ -36,6 +36,11 @@ header {
   @media screen and (max-width: $screen-xs-max) {
     height: 100vh;
     min-height: 450px;
+
+    //Replace with a placeholder image, because videos dont start on mobile devices automatically.
+    background-image: url("http://placehold.it/500x800");
+    background-size: cover;
+
   }
 }
 

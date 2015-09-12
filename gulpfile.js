@@ -2,25 +2,30 @@ var gulp = require('gulp'),
     watch = require('gulp-watch'),
     sass = require('gulp-sass'),
     spritesmith = require('gulp.spritesmith'),
+    autoprefixer = require('gulp-autoprefixer'),
+    csso = require('gulp-csso'),
+    sourcemaps = require('gulp-sourcemaps'),
     connect = require('gulp-connect');
 
 gulp.task('sass', function () {
     gulp.src('assets/sass/app.scss')
-        .pipe(sass().on('error', sass.logError))
+        .pipe(sourcemaps.init())
+        .pipe(sass())
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest('assets/css'))
         .pipe(connect.reload())
 });
 
-//gulp.task('build', function () {
-//    gulp.src('assets/sass/app.scss')
-//        .pipe(sass().on('error', sass.logError))
-//        .pipe(gulp.dest('assets/css'))
-//		.pipe(autoprefixer({
-//			browsers: ['last 2 versions'],
-//			cascade: false
-//		}))
-//		.pipe(connect.reload())
-//});
+gulp.task('build', function () {
+    gulp.src('assets/sass/app.scss')
+        .pipe(sass().on('error', sass.logError))
+		.pipe(autoprefixer({
+			browsers: ['last 2 versions', "IE 9"],
+			cascade: false
+		}))
+        .pipe(csso())
+        .pipe(gulp.dest('assets/css'))
+});
 
 gulp.task('html', function () {
     gulp.src('*.html')

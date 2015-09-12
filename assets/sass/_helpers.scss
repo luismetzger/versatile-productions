@@ -2,6 +2,10 @@
   margin-top: 0;
 }
 
+.overflow-h {
+  overflow: hidden;
+}
+
 .section-header {
   color: $brand-gray;
   display: inline-block;
@@ -48,6 +52,10 @@
 
   &:hover {
     color: #fff;
+  }
+
+  @media screen and (max-width: $screen-xs-max) {
+    font-size: 30px;
   }
 }
 

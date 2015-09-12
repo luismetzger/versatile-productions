@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+    var body = $('body');
+
     //Header video
     var iframe = $('#header-player')[0],
         player = $f(iframe);
@@ -10,12 +12,14 @@ $(document).ready(function () {
 
     headerVideoToggle.click(function (e) {
         e.preventDefault();
+        body.addClass('overflow-h');
         headerVideo.addClass('header-fullscreen-video-open');
         player.api("play");
     });
 
     headerVideoClose.click(function (e) {
         e.preventDefault();
+        body.removeClass('overflow-h');
         headerVideo.removeClass('header-fullscreen-video-open');
         player.api('unload');
     });
