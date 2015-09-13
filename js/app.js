@@ -10,19 +10,31 @@ $(document).ready(function () {
     var headerVideoToggle = $('#header-fullscreen-video-toggle');
     var headerVideoClose = $('#header-fullscreen-video-close');
 
+    player.addEvent('ready', function() {
+        player.addEvent('finish', closeHeaderVideo);
+    });
+
     headerVideoToggle.click(function (e) {
         e.preventDefault();
-        body.addClass('overflow-h');
-        headerVideo.addClass('header-fullscreen-video-open');
-        player.api("play");
+        openHeaderVideo();
     });
 
     headerVideoClose.click(function (e) {
         e.preventDefault();
+        closeHeaderVideo();
+    });
+
+    function openHeaderVideo() {
+        body.addClass('overflow-h');
+        headerVideo.addClass('header-fullscreen-video-open');
+        player.api("play");
+    }
+
+    function closeHeaderVideo() {
         body.removeClass('overflow-h');
         headerVideo.removeClass('header-fullscreen-video-open');
         player.api('unload');
-    });
+    }
 
     //Quotes carousel
     var quotesCarouselVideoIsPlaying = false;
