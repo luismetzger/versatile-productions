@@ -56,7 +56,6 @@ $(document).ready(function () {
             items: 1
         })
         .on('changed.owl.carousel', function (property) {
-            console.log(property.item.index)
             var current = property.item.index;
             makeCarouselControlActive(current)
             quotesCarouselVideoIsPlaying ? carouselCloseVideos() : '';
