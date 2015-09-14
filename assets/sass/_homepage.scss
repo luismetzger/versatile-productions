@@ -1,5 +1,5 @@
 .text-section {
-  padding: 50px 0;
+  padding: 50px 0 250px;
   border-bottom: 1px solid $brand-gray;
   font-family: $font-family-open-sans;
 
@@ -14,6 +14,44 @@
 
   &:last-of-type {
     border: none;
+  }
+
+  @media screen and (max-width: $screen-xs-max) {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  @media screen and (min-width: $screen-sm-min) {
+    &.img-right-side {
+      img {
+        position: absolute;
+        left: 0;
+        top: -200px;
+      }
+    }
+
+    &.img-left-side {
+      padding: 220px 0 250px;
+      @extend .img-right-side;
+      img {
+        top: -200px;
+        left: auto;
+        right: 0;
+      }
+
+    }
+
+    &.img-right-side-last {
+      padding: 200px 0 270px;
+      @extend .img-right-side;
+      img {
+        top: -180px;
+      }
+
+    }
+
+
   }
 }
 
