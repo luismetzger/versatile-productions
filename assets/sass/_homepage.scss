@@ -1,7 +1,12 @@
 .text-section {
-  padding: 50px 0 250px;
-  border-bottom: 1px solid $brand-gray;
   font-family: $font-family-open-sans;
+  padding: 50px 0;
+
+  @media screen and (min-width: $screen-sm-min) {
+    min-height: 750px;
+    overflow: hidden;
+    padding: 250px 0 250px 0;
+  }
 
   h4 {
     font: 300 35px/52px $font-family-open-sans;
@@ -12,47 +17,41 @@
     color: #747c83;
   }
 
-  &:last-of-type {
-    border: none;
-  }
-
   @media screen and (max-width: $screen-xs-max) {
     img {
       max-width: 100%;
     }
   }
+}
 
-  @media screen and (min-width: $screen-sm-min) {
-    &.img-right-side {
-      img {
-        position: absolute;
-        left: 0;
-        top: -200px;
-      }
+@media screen and (min-width: $screen-sm-min) {
+  .img-right-side {
+    img {
+      position: absolute;
+      left: 0;
+      top: -200px;
     }
+  }
 
-    &.img-left-side {
-      padding: 220px 0 250px;
-      @extend .img-right-side;
-      img {
-        top: -200px;
-        left: auto;
-        right: 0;
-      }
-
+  .img-left-side {
+    @extend .img-right-side;
+    img {
+      top: -200px;
+      left: auto;
+      right: 0;
     }
-
-    &.img-right-side-last {
-      padding: 200px 0 270px;
-      @extend .img-right-side;
-      img {
-        top: -180px;
-      }
-
-    }
-
 
   }
+
+  .img-right-side-last {
+    @extend .img-right-side;
+    //img {
+    //  top: -180px;
+    //}
+
+  }
+
+
 }
 
 .partner-icon {

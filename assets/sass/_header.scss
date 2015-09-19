@@ -1,10 +1,14 @@
 header {
   color: #fff;
   font-family: $font-family-brandon-grotesque;
-  margin-bottom: 100px;
+
 
   .fa-play-circle {
     color: #fff;
+  }
+
+  @media screen and (min-width: $screen-sm-min) {
+    margin-bottom: -100px;
   }
 
   @media screen and (max-width: $screen-xs-max) {
@@ -13,7 +17,7 @@ header {
 }
 
 .big-video-wrap {
-  height: 700px;
+  height: 720px;
   overflow: hidden;
   position: relative;
   background-color: transparentize(#000, .5);
