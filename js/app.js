@@ -105,4 +105,19 @@ $(document).ready(function () {
         controlsInactiveVideoClose()
     })
 
+    //Mobile nav
+    var handler = $('#mobile-nav-toggle');
+    var mobileNav = $('.mobile-nav');
+    var mainContent = $('#main-content');
+
+    handler.click(function () {
+        mainContent.toggleClass('mobile-nav-open');
+        mobileNav.toggleClass('mobile-nav-visible');
+        return false;
+    })
+
+    $('.mobile-nav-overlay').click(function () {
+        mainContent.toggleClass('mobile-nav-open')
+        mobileNav.toggleClass('mobile-nav-visible')
+    })
 });
