@@ -109,15 +109,29 @@ $(document).ready(function () {
     var handler = $('#mobile-nav-toggle');
     var mobileNav = $('.mobile-nav');
     var mainContent = $('#main-content');
+    var mobileNavContainer = $('.mobile-nav-container');
 
     handler.click(function () {
         mainContent.toggleClass('mobile-nav-open');
+        mobileNavContainer.toggleClass('mobile-nav-open');
         mobileNav.toggleClass('mobile-nav-visible');
         return false;
     })
 
     $('.mobile-nav-overlay').click(function () {
         mainContent.toggleClass('mobile-nav-open')
+        mobileNavContainer.toggleClass('mobile-nav-open')
         mobileNav.toggleClass('mobile-nav-visible')
     })
+
+    var height = 0;
+
+    $(window).scroll(function() {
+        height = $(window).scrollTop();
+        if(height  > 200) {
+            $('.mobile-call').addClass('visible');
+        }else {
+            $('.mobile-call').removeClass('visible');
+        }
+    });
 });

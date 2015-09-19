@@ -75,6 +75,16 @@
 
 }
 
+.btn-black-outlined {
+  border-radius: 20px;
+  @include button-variant(#000, transparent, #000);
+
+  &:hover {
+    background-color: #000 !important;
+    color: #fff !important;
+  }
+}
+
 .btn-green {
   @include button-variant(#fff, #6DA92B, #6DA92B)
 }
