@@ -105,6 +105,31 @@ $(document).ready(function () {
         controlsInactiveVideoClose()
     })
 
+    //Partners carousel
+    var partnersCarousel = $('.partners-carousel');
+    partnersCarousel.owlCarousel({
+        autoplay: true,
+        smartSpeed: 300,
+        autoplaySpeed: 400,
+            responsive : {
+                // breakpoint from 0 up
+                0 : {
+                    items : 1
+                },
+                568: {
+                    items: 2
+                },
+                768: {
+                    items: 3
+                },
+                992: {
+                    items: 4
+                }
+
+    },
+        items: 4
+    });
+
     //Mobile nav
     var handler = $('#mobile-nav-toggle');
     var mobileNav = $('.mobile-nav');
@@ -130,8 +155,10 @@ $(document).ready(function () {
         height = $(window).scrollTop();
         if(height  > 200) {
             $('.mobile-call').addClass('visible');
+            $('.navbar').addClass('navbar-scroll-desktop');
         }else {
             $('.mobile-call').removeClass('visible');
+            $('.navbar').removeClass('navbar-scroll-desktop');
         }
     });
 });

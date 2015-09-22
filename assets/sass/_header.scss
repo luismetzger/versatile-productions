@@ -28,7 +28,7 @@ header {
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: -2; //To show content
+    //z-index: -2; //To show content
     overflow: hidden;
 
     .vjs-tech {
@@ -56,12 +56,28 @@ header {
 
 .navbar {
   margin-top: 15px;
+  padding: 0 15px;
+
+  &.navbar-scroll-desktop {
+    background-color: #fff;
+    margin-top: 0;
+    padding: 15px;
+    border-bottom: 1px solid #e4e4e4;
+
+    .navbar-nav > li > a {
+      color: #8a959e;
+
+      &:hover {
+        color: #ff3366;
+      }
+    }
+  }
 }
 
 .header-text-block {
   h2 {
     font-size: 5em;
-    margin-top: 100px;
+    margin-top: 160px;
   }
   h3 {
     font-size: 2em;
@@ -109,7 +125,7 @@ header {
     position: fixed;
     top: 0;
     bottom: 0;
-    z-index: 2;
+    z-index: 20;
     width: 100%;
     height: 100%;
     display: block;
