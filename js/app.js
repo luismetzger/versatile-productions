@@ -109,8 +109,7 @@ $(document).ready(function () {
     var partnersCarousel = $('.partners-carousel');
     partnersCarousel.owlCarousel({
         autoplay: true,
-        smartSpeed: 300,
-        autoplaySpeed: 400,
+        autoplaySpeed: 0,
             responsive : {
                 // breakpoint from 0 up
                 0 : {
