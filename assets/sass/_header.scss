@@ -2,17 +2,20 @@ header {
   color: #fff;
   font-family: $font-family-brandon-grotesque;
 
-
   .fa-play-circle {
     color: #fff;
   }
 
-  @media screen and (min-width: $screen-sm-min) {
-    margin-bottom: -100px;
-  }
-
   @media screen and (max-width: $screen-xs-max) {
     padding-top: 52px;
+  }
+}
+
+.homepage {
+  header {
+    @media screen and (min-width: $screen-sm-min) {
+      margin-bottom: -100px;
+    }
   }
 }
 
@@ -172,7 +175,6 @@ header {
   transition: .3s all ease;
   transform: translateX(0);
   visibility: hidden;
-  
 
   a {
     transition: all 200ms ease-in-out;
@@ -188,7 +190,7 @@ header {
       text-decoration: none;
     }
   }
-  
+
   &.mobile-nav-visible {
     visibility: visible;
   }

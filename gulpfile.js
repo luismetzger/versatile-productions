@@ -49,7 +49,7 @@ gulp.task('sprite', function () {
 
 gulp.task('watch', function () {
     gulp.watch('assets/sass/*.scss', ['sass']);
-    gulp.watch('index.html', ['html']);
+    gulp.watch('*.html', ['html']);
 });
 
 
