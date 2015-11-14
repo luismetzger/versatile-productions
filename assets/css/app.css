@@ -5714,9 +5714,11 @@ footer {
 
 .faq-text-section {
   padding: 100px 0 300px;
-  background-image: url("../images/faq%20page/crossword.png");
-  background-repeat: repeat-y;
-  background-size: 100%; }
+  /*
+    background-image: url("../images/faq%20page/crossword.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+  */ }
   .faq-text-section h1 {
     font-size: 36px;
     margin: 40px 0; }
@@ -5738,5 +5740,10 @@ footer {
     .faq-text-section .right img {
       margin-bottom: 70px;
       zoom: 1.5; } }
+
+.big-video-wrap-2 {
+  background-image: url("../images/about/about-bg.jpg");
+  background-size: cover;
+  height: 865px; }
 
 /*# sourceMappingURL=app.css.map */
