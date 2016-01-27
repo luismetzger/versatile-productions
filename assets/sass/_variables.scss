@@ -4,12 +4,6 @@ $bootstrap-sass-asset-helper: false !default;
 // --------------------------------------------------
 
 
-//Custom Fonts
-
-/* Fonts */
-@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
-@import url(https://fonts.googleapis.com/css?family=Amatic+SC);
-
 //== Colors
 //
 //## Gray and brand colors for use across Bootstrap.
@@ -884,50 +878,3 @@ $page-header-border-color:    $gray-lighter !default;
 $dl-horizontal-offset:        $component-offset-horizontal !default;
 //** Horizontal line color.
 $hr-border:                   $gray-lighter !default;
-
-
-
-//Hero Image Variables
-
-$bg-image: "https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?q=80&fm=jpg&s=c895a1f219d174952415b9b7a0811e62";
-$bg-overlay: rgba(0,235,235,0.7);
-
-
-/* Mixins */
-@mixin bg-images(
-    $image-path: "https://images.unsplash.com/photo-1441716844725-09cedc13a4e7?q=80&fm=jpg&s=c895a1f219d174952415b9b7a0811e62",
-    $overlay-color: rgba(255,255,255,0.8),
-    $position: center center) {
-
-    animation: bgFadeIn 1s ease-in both;
-    position: relative;
-
-    &:before {
-        background:
-            linear-gradient(
-              $overlay-color,
-              $overlay-color
-            ),
-            url($image-path);
-        background-color: #CCCCCC;
-        background-attachment: fixed;
-        background-position: $position;
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        bottom: 0;
-        content: ' ';
-        left: 0;
-        position: absolute;
-        right: 0;
-        top: 0;
-        z-index: -1;
-    }
-
-    @keyframes bgFadeIn {
-        0% { background-color: rgba(255, 255, 255, 1); }
-        100% { background-color: rgba(255, 255, 255, 0); }
-    }
-}
