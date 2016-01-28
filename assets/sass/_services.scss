@@ -1,0 +1,119 @@
+.services-page{
+
+  .big-video-wrap{
+    background-image: url("../images/service-header-bg.png") !important;
+    margin-bottom: 30px;
+  }
+
+  .categories{
+    p{
+      margin-top: 0;
+      color: #999999;
+      font-style: italic;
+    }
+  }
+
+
+  .section-header{
+    margin-top: 50px;
+    margin-bottom: 120px;
+    font-size: 37px;
+  }
+
+  .feature{
+    img{
+      margin-bottom: 30px;
+    }
+    h3{
+      font-size: 30px;
+    }
+    p{
+      color: #646464;
+      font-size: 20px;
+      margin-bottom: 50px;
+      @media (min-width: $screen-sm-min){
+        margin-bottom: 100px;
+      }
+    }
+  }
+
+  .inform-section{
+    color: white;
+    background: url(../images/camera-big.png);
+    background-size: cover;
+    background-position: right;
+
+    @media (max-width: $screen-xs-max) {
+      text-align: center;
+    }
+
+
+    h2{
+      margin-top: 80px;
+      font-size: 36px;
+      font-weight: 300;
+    }
+    h3{
+      font-size: 24px;
+      margin-bottom: 30px;
+      font-weight: 300;
+    }
+    p{
+      font-size: 16px;
+    }
+
+    .btn-xxl{
+      margin-top: 50px;
+      margin-bottom: 70px;
+    }
+
+  }
+
+  .description{
+    .row{
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+
+    h4{
+      color: #878787;
+      font-size: 36px;
+      font-weight: 300;
+    }
+
+
+    p{
+      a{
+        color: #333333;
+        font-weight: bold;
+        &:hover{
+          color: $gray-light;
+        }
+
+      }
+    }
+
+    img{
+      margin-top: 40px;
+    }
+
+  }
+}
+
+.btn-outline{
+  background: transparent;
+  color: white;
+
+  &:hover{
+    background: transparent;
+    color: #8d9aa5;
+  }
+}
+
+
+
+.btn-xxl{
+  padding: 25px 20px;
+  font-size: 20px;
+  border-radius: 20px;
+}
