@@ -9,4 +9,15 @@ footer {
   hr {
     border-color: #ccc;
   }
+
+  p{
+    font-weight: 300;
+    a{
+      color: #646464;
+
+      &:hover{
+        color: #323a45;
+      }
+    }
+  }
 }

@@ -20,7 +20,7 @@ header {
 }
 
 .big-video-wrap {
-  height: 720px;
+  min-height: 720px;
   overflow: hidden;
   position: relative;
   background-color: transparentize(#000, .5);
@@ -58,18 +58,57 @@ header {
 }
 
 .navbar {
-  margin-top: 15px;
-  padding: 0 15px;
+  padding: 10px 15px 5px;
+
+  .navbar-brand{
+    margin-top: -45px;
+    transition: .5s all ease;
+    img{
+      width: 120px;
+      transition: .5s all ease;
+    }
+  }
+
+  .pills-section{
+    transition: .5s all ease;
+  }
+
+  transition: .5s all ease;
+
+  .navbar-nav > li > a{
+    font-weight: bolder;
+    font-size: 20px;
+
+    @media screen and (max-width: $screen-sm-max) {
+      font-size: 14px;
+    }
+  }
+
+  .btn-default-outlined{
+    padding: 10px 10px;
+    margin-top: 4px;
+  }
+
 
   &.navbar-scroll-desktop {
     background-color: #fff;
-    margin-top: 0;
-    padding: 15px;
+    margin-top: -40px;
+
+    .navbar-brand{
+      margin-top: -10px;
+
+      img{
+        width: 80px;
+      }
+    }
+
+
+
     border-bottom: 1px solid #e4e4e4;
 
     .navbar-nav > li > a {
       color: #8a959e;
-
+      font-weight: bold;
       &:hover {
         color: #ff3366;
       }

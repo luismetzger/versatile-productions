@@ -15,6 +15,7 @@
   "dependencies": {
     "bootstrap-sass": "~3.3.2",
     "font-awesome": "~4.4.0",
-    "gmaps": "gmaps.js#~0.4.22"
+    "gmaps": "gmaps.js#~0.4.22",
+    "font-awesome-sass": "~4.5.0"
   }
 }
