@@ -1,6 +1,14 @@
-.big-video-wrap-2 {
-	
-	background-image: url("../images/about/about-bg.jpg");
+.about-page {
+  .big-video-wrap {
+    background-image: url("../images/about-header-bg.png");
     background-size: cover;
-    height: 865px;
+  }
+
+
+}
+
+.big-video-wrap-2 {
+  background-image: url("../images/about/about-bg.jpg");
+  background-size: cover;
+  height: 720px;
 }

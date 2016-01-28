@@ -13,8 +13,8 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap-sass": "~3.3.5",
+    "bootstrap-sass": "~3.3.2",
     "font-awesome": "~4.4.0",
-    "boostrap-sass": "~3.3.5"
+    "gmaps": "gmaps.js#~0.4.22"
   }
 }

@@ -24,6 +24,21 @@
   }
 }
 
+.text-section-small {
+  @extend .text-section;
+  padding: 80px 0;
+  min-height: 0;
+
+  img {
+    margin-bottom: 30px;
+  }
+
+  .section-header {
+    margin-bottom: 80px;
+    font-size: 36px;
+  }
+}
+
 @media screen and (min-width: $screen-sm-min) {
   .img-right-side {
     img {
