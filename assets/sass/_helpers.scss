@@ -309,9 +309,12 @@
 .card.hovercard {
   position: relative;
   padding-top: 0;
+  border-radius: 8px;
   overflow: hidden;
   text-align: center;
-  background-color: rgba(214, 224, 226, 0.2);
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+
 }
 
 .card.hovercard .cardheader {
@@ -334,16 +337,20 @@
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  border: 5px solid rgba(255,255,255,0.5);
+  background: white;
+  margin-bottom: 20px;
+  border: 5px solid white;
 }
 
 .card.hovercard .info {
   padding: 4px 8px 10px;
+  margin-bottom: 50px;
 }
 
 .card.hovercard .info .title {
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 16px;
+  font-weight: bold;
   line-height: 1;
   color: #262626;
   vertical-align: middle;
